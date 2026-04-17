@@ -1,0 +1,42 @@
+name: "{{ skill_name }}"
+version: "0.1.0"
+type: generated
+description: "{{ description }}"
+
+# Происхождение
+origin:
+  method: "{{ parent_method }}"
+  synthesized_from: []
+  parent_agents: []
+  created_at: "{{ timestamp }}"
+
+# Генетический код
+genome:
+  generation: 1
+  mutations:
+    - "initial_generation"
+  fitness_score: null  # Заполняется после тестирования
+  
+# Тестирование
+tests:
+  unit_tests: []
+  integration_tests: []
+  benchmark_results: {}
+
+# Зависимости
+dependencies:
+  required: []
+  optional: []
+
+# Интерфейс
+interface:
+  input: "{{ input_spec }}"
+  output: "{{ output_spec }}"
+  
+# Реализация
+code: |
+  {{ code_block }}
+
+# Статус
+status: generated  # generated → tested → validated → retired
+retired_reason: null

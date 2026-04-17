@@ -1,0 +1,37 @@
+name: parallel-bidirectional
+type: methodology
+source: svend4/info1
+extracted_at: "2026-04-17"
+description: |
+  Методология параллельного двунаправленного развития — 
+  подход к развитию систем через одновременное движение 
+  в двух направлениях: макро (архитектура) и микро (детали).
+
+concepts:
+  - name: "Параллельное развитие"
+    description: "Одновременная работа над разными уровнями системы"
+    
+  - name: "Двунаправленность"
+    description: "Связь top-down и bottom-up подходов"
+    
+  - name: "Синхронизация уровней"
+    description: "Координация между макро и микро изменениями"
+
+patterns:
+  - name: "Методология как код"
+    description: "Преобразование абстрактных методов в исполняемые алгоритмы"
+    
+  - name: "Эволюционные ветви"
+    description: "Развитие через варианты и отбор"
+
+applications:
+  - "Разработка агентов ИИ"
+  - "Организация баз знаний"
+  - "Систематизация информации"
+  - "Генерация шаблонов"
+
+related_repos:
+  - svend4/info1
+  - svend4/data70
+
+status: extracted  # extracted → processed → synthesized → validated

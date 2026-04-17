@@ -1,0 +1,21 @@
+tasks:
+  - id: parse-structure
+    name: "Парсинг структуры репозитория"
+    description: "Агент должен корректно извлечь структуру из GitHub API"
+    input: "https://github.com/svend4/info1"
+    expected_output: "JSON с деревом файлов"
+    timeout_ms: 5000
+    
+  - id: extract-concepts
+    name: "Извлечение концепций из текста"
+    description: "Агент должен найти ключевые концепции в README"
+    input: "Текст методологии"
+    expected_output: "Список концепций"
+    timeout_ms: 3000
+    
+  - id: generate-skill
+    name: "Генерация скилла"
+    description: "Агент должен создать рабочий YAML из методологии"
+    input: "parallel-bidirectional.yaml"
+    expected_output: "Валидный skill.yaml"
+    timeout_ms: 10000

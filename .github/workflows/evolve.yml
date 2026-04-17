@@ -1,0 +1,57 @@
+name: Collect and Synthesize
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4 * * *'  # Ежедневно в 4:00
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install deps
+        run: pip install -r requirements.txt
+      
+      - name: Run collectors
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python pipelines/ingest/info1-collector.py
+          # Можно добавить другие коллекторы
+      
+      - name: Commit results
+        run: |
+          git config user.name "Evolution Bot"
+          git config user.email "evolution@info100.local"
+          git add knowledge/raw/
+          git commit -m "🤖 Auto-collect: $(date +%Y-%m-%d)" || echo "No changes"
+          git push
+
+  synthesize:
+    needs: collect
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Generate skills
+        run: |
+          python pipelines/synthesize/skill-generator.py parallel-bidirectional parallel-agent-auto
+      
+      - name: Commit skills
+        run: |
+          git config user.name "Evolution Bot"
+          git config user.email "evolution@info100.local"
+          git add skills/generated/
+          git commit -m "🧬 Auto-synthesize: $(date +%Y-%m-%d)" || echo "No changes"
+          git push

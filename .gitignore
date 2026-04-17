@@ -1,0 +1,26 @@
+# info100 — Игнорируемое
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# Эксперименты (генерируемые артефакты)
+experiments/*/artifacts/
+experiments/*/temp/
+*.log
+*.tmp
+
+# Большие данные (если нужно — используем Git LFS)
+knowledge/raw/**/*.pdf
+knowledge/raw/**/*.mp4
+knowledge/raw/**/*.zip
+
+# Секреты
+.github_token
+secrets.yaml

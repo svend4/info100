@@ -1,0 +1,30 @@
+name: base-collector
+version: "1.0.0"
+type: core
+description: Базовый агент для сбора данных из внешних репозиториев
+
+parameters:
+  source_type: "github"  # github | gitlab | local
+  target_repo: ""
+  depth: "shallow"       # shallow | deep (с историей)
+  extraction_mode: "auto" # auto | manual
+
+capabilities:
+  - clone_repository
+  - extract_structure
+  - parse_markdown
+  - identify_patterns
+  - generate_metadata
+
+output_format:
+  raw_path: "knowledge/raw/{repo_name}/"
+  metadata_file: "knowledge/raw/{repo_name}/.meta.yaml"
+  structure_file: "knowledge/raw/{repo_name}/.structure.json"
+
+# Генетическая информация
+genome:
+  parent: null  # Базовый агент — корень дерева
+  mutations: []
+  fitness_score: 1.0  # Базовый агент — эталон
+  created: "2026-04-17"
+  author: "Pro"

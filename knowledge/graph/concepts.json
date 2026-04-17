@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0",
+  "description": "Граф связей между концепциями в info100",
+  "nodes": [
+    {
+      "id": "parallel-bidirectional",
+      "type": "methodology",
+      "name": "Параллельное двунаправленное развитие",
+      "source": "svend4/info1"
+    },
+    {
+      "id": "tetradron",
+      "type": "project",
+      "name": "TetraDrone",
+      "source": "svend4/data70"
+    },
+    {
+      "id": "evolution-lab",
+      "type": "concept",
+      "name": "Эволюционная лаборатория"
+    }
+  ],
+  "edges": [
+    {
+      "from": "parallel-bidirectional",
+      "to": "evolution-lab",
+      "relation": "implements",
+      "strength": 0.9
+    },
+    {
+      "from": "tetradron",
+      "to": "parallel-bidirectional",
+      "relation": "uses",
+      "strength": 0.7
+    }
+  ],
+  "last_updated": "2026-04-17"
+}
