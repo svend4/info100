@@ -33,7 +33,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
-          pip install PyGithub  # Для работы с Issues
+          pip install PyGithub
       
       - name: 🔍 Collect info1
         run: |
@@ -60,6 +60,7 @@ jobs:
           git config user.email "evolution@info100.local"
           git add knowledge/raw/ knowledge/graph/
           git diff --cached --quiet || git commit -m "🤖 [auto-collect] $(date +%Y-%m-%d) — info1 + data70"
+          git pull --rebase origin main || echo "Nothing to pull"
           git push
 
   # ==========================================
@@ -71,7 +72,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Полная история для корректного push
+          fetch-depth: 0
       
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -92,7 +93,6 @@ jobs:
             parallel-agent-$(date +%Y%m%d) \
             "Auto-generated parallel bidirectional agent"
           
-          # Можно добавить больше генераций
           echo "✅ Skills generated"
       
       - name: 📊 Stage 2 Summary
@@ -119,6 +119,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -142,7 +144,6 @@ jobs:
           echo "Generated (needs work): $(ls -1 skills/generated/*.yaml 2>/dev/null | wc -l) skills"
           echo "Retired: $(ls -1 skills/retired/*.yaml 2>/dev/null | wc -l) skills"
           
-          # Показываем fitness scores
           echo "=== Fitness Scores ==="
           for f in skills/tested/*.yaml; do
             [ -f "$f" ] && echo "$f: $(grep -A1 'fitness_score' "$f" 2>/dev/null | tail -1)"
@@ -152,7 +153,7 @@ jobs:
         run: |
           git config user.name "Evolution Bot"
           git config user.email "evolution@info100.local"
-          git add skills/tested/ skills/retired/ skills/generated/ benchmarks/results/
+          git add skills/tested/ skills/retired/ skills/generated/ benchmarks/results/ meta/evolution-log/
           git diff --cached --quiet || git commit -m "🧪 [auto-validate] $(date +%Y-%m-%d) — fitness updated"
           git pull --rebase origin main || echo "Nothing to pull"
           git push
@@ -166,6 +167,8 @@ jobs:
     if: ${{ github.event.inputs.create_report != 'false' }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       
       - name: Setup Python
         uses: actions/setup-python@v5

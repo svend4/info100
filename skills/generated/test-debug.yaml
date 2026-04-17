@@ -1,0 +1,62 @@
+name: test-debug
+version: 0.1.0
+skill_id: test-debug-eb4bf9ee
+type: generated
+description: Debug run
+origin:
+  method: parallel-bidirectional
+  methodology_source: svend4/info1
+  synthesized_from:
+  - evolution-lab
+  - tetradron
+  - wilos
+  parent_agents:
+  - info1-collector
+  - data70-collector
+  created_at: '2026-04-17T22:02:48.058548'
+genome:
+  generation: 1
+  mutations:
+  - initial_synthesis
+  fitness_score: null
+  last_evaluated: null
+interface:
+  input: dict
+  output: dict
+  required_fields:
+  - action
+  optional_fields:
+  - context
+  - parameters
+implementation:
+  language: python
+  code: "\"\"\"\nСкилл: parallel-bidirectional\nСгенерирован: 2026-04-17T22:02:48.058249\n\
+    На основе: svend4/info1\n\"\"\"\n\nfrom typing import Dict, List, Any, Optional\n\
+    from dataclasses import dataclass\nfrom datetime import datetime\n\n# Концепции:\
+    \ Параллельное развитие, Двунаправленность, Синхронизация уровней\n\n@dataclass\n\
+    class AgentConfig:\n    name: str\n    version: str = '1.0.0'\n    capabilities:\
+    \ List[str] = None\n\nclass parallelbidirectionalSkill:\n    \"\"\"\n    Методология\
+    \ параллельного двунаправленного развития — \nподход к развитию систем через одновременное\
+    \ движение \nв двух направлениях: макро (архитектура) и микро (детали).\n\n  \
+    \  \"\"\"\n\n    def __init__(self, config: AgentConfig = None):\n        self.config\
+    \ = config or AgentConfig(name='default')\n        self.patterns = [{'name': 'Методология\
+    \ как код', 'description': 'Преобразование абстрактных методов в исполняемые алгоритмы'},\
+    \ {'name': 'Эволюционные ветви', 'description': 'Развитие через варианты и отбор'}]\n\
+    \        self.initialized_at = datetime.now()\n\n    def process(self, input_data:\
+    \ Dict) -> Dict:\n        \"\"\"Главный метод обработки\"\"\"\n        result\
+    \ = {\n            'status': 'processed',\n            'timestamp': datetime.now().isoformat(),\n\
+    \            'methodology': self.config.name,\n            'patterns_applied':\
+    \ len(self.patterns)\n        }\n        return result\n\n    def validate(self)\
+    \ -> bool:\n        \"\"\"Валидация конфигурации\"\"\"\n        return self.config\
+    \ is not None and self.config.name\n\n# Связанные концепции: evolution-lab, tetradron,\
+    \ wilos"
+  dependencies:
+  - typing
+  - dataclasses
+  - datetime
+  entry_point: test-debug.Skill.process
+tests:
+  unit_tests: []
+  integration_tests: []
+  benchmark_results: {}
+status: generated
