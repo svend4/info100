@@ -70,6 +70,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Полная история для корректного push
       
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -106,6 +108,7 @@ jobs:
           git config user.email "evolution@info100.local"
           git add skills/generated/ meta/evolution-log/
           git diff --cached --quiet || git commit -m "🧬 [auto-synthesize] $(date +%Y-%m-%d) — new skills"
+          git pull --rebase origin main || echo "Nothing to pull"
           git push
 
   # ==========================================
@@ -151,6 +154,7 @@ jobs:
           git config user.email "evolution@info100.local"
           git add skills/tested/ skills/retired/ skills/generated/ benchmarks/results/
           git diff --cached --quiet || git commit -m "🧪 [auto-validate] $(date +%Y-%m-%d) — fitness updated"
+          git pull --rebase origin main || echo "Nothing to pull"
           git push
 
   # ==========================================
@@ -188,4 +192,5 @@ jobs:
           git config user.email "evolution@info100.local"
           git add meta/last-report.json
           git diff --cached --quiet || git commit -m "📝 [auto-report] $(date +%Y-%m-%d)"
+          git pull --rebase origin main || echo "Nothing to pull"
           git push || echo "Nothing to commit"
