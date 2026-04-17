@@ -1,34 +1,34 @@
 {
   "repo": "svend4/data70",
-  "collected_at": "2026-04-17T21:41:51.800728",
+  "collected_at": "2026-04-17T14:00:32.697936",
   "total_objects": 176,
   "markdown_processed": 15,
   "json_processed": 2,
   "projects_found": [
     "робот",
     "TetraDrone",
-    "AI",
+    "drone",
     "WILOS",
-    "drone"
+    "AI"
   ],
   "files": [
     {
       "path": "MANIFEST.md",
       "projects_found": [
+        "drone",
         "WILOS",
-        "TetraDrone",
         "робот",
-        "drone"
+        "TetraDrone"
       ],
       "size": 3493
     },
     {
       "path": "README.md",
       "projects_found": [
+        "drone",
         "WILOS",
-        "TetraDrone",
         "робот",
-        "drone"
+        "TetraDrone"
       ],
       "size": 1669
     },
@@ -44,9 +44,9 @@
       "projects_found": [
         "робот",
         "TetraDrone",
-        "AI",
+        "drone",
         "WILOS",
-        "drone"
+        "AI"
       ],
       "size": 8274
     },
@@ -55,9 +55,9 @@
       "projects_found": [
         "робот",
         "TetraDrone",
-        "AI",
+        "drone",
         "WILOS",
-        "drone"
+        "AI"
       ],
       "size": 6163
     },
@@ -71,20 +71,20 @@
     {
       "path": "analysis_05_recommendations.md",
       "projects_found": [
-        "TetraDrone",
-        "робот",
+        "drone",
         "AI",
-        "drone"
+        "робот",
+        "TetraDrone"
       ],
       "size": 5777
     },
     {
       "path": "analysis_1105_conversations.md",
       "projects_found": [
-        "TetraDrone",
-        "робот",
+        "drone",
         "AI",
-        "drone"
+        "робот",
+        "TetraDrone"
       ],
       "size": 12363
     },
@@ -93,9 +93,9 @@
       "projects_found": [
         "робот",
         "TetraDrone",
-        "AI",
+        "drone",
         "WILOS",
-        "drone"
+        "AI"
       ],
       "size": 34274
     },
