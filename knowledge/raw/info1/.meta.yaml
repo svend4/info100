@@ -1,5 +1,5 @@
 agent: info1-collector
-collected_at: '2026-04-17T14:00:28.604460'
+collected_at: '2026-04-17T14:07:17.535137'
 source: svend4/info1
 structure:
   code_files:
@@ -200,7 +200,7 @@ structure:
   - tools/validate_export.py
   - tools/visualize_connections.py
   - visualizations/metrics.json
-  collected_at: '2026-04-17T14:00:28.352068'
+  collected_at: '2026-04-17T14:07:17.278606'
   markdown_files:
   - 01-Концепция/МЕТОДОЛОГИЯ-ПАРАЛЛЕЛЬНОГО-РАЗВИТИЯ.md
   - 01-Концепция/МЕТОДОЛОГИЯ-РАБОТЫ-С-ИНФОРМАЦИЕЙ.md

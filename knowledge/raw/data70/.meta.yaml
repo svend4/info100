@@ -1,28 +1,28 @@
 agent: data70-collector
-collected_at: '2026-04-17T14:00:32.698161'
+collected_at: '2026-04-17T14:07:21.879403'
 projects: &id001
-- робот
 - TetraDrone
-- drone
 - WILOS
+- drone
+- робот
 - AI
 source: svend4/data70
 structure:
-  collected_at: '2026-04-17T14:00:32.697936'
+  collected_at: '2026-04-17T14:07:21.879157'
   files:
   - path: MANIFEST.md
     projects_found:
     - drone
-    - WILOS
     - робот
     - TetraDrone
+    - WILOS
     size: 3493
   - path: README.md
     projects_found:
     - drone
-    - WILOS
     - робот
     - TetraDrone
+    - WILOS
     size: 1669
   - path: analysis_01_overview.md
     projects_found:
@@ -30,18 +30,18 @@ structure:
     size: 3297
   - path: analysis_02_top_projects.md
     projects_found:
-    - робот
     - TetraDrone
-    - drone
     - WILOS
+    - drone
+    - робот
     - AI
     size: 8274
   - path: analysis_03_inventions.md
     projects_found:
-    - робот
     - TetraDrone
-    - drone
     - WILOS
+    - drone
+    - робот
     - AI
     size: 6163
   - path: analysis_04_social_law.md
@@ -51,23 +51,23 @@ structure:
   - path: analysis_05_recommendations.md
     projects_found:
     - drone
-    - AI
     - робот
+    - AI
     - TetraDrone
     size: 5777
   - path: analysis_1105_conversations.md
     projects_found:
     - drone
-    - AI
     - робот
+    - AI
     - TetraDrone
     size: 12363
   - path: analysis_ai_topics.md
     projects_found:
-    - робот
     - TetraDrone
-    - drone
     - WILOS
+    - drone
+    - робот
     - AI
     size: 34274
   - path: part10_deep_analysis.md
