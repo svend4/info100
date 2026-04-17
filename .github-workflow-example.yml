@@ -1,0 +1,33 @@
+name: info1-evolution-trigger
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4 * * *'
+
+jobs:
+  evolve:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install deps
+        run: pip install -r requirements.txt
+      
+      - name: Run collectors
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 pipelines/ingest/info1-collector.py
+      
+      - name: Commit results
+        run: |
+          git config user.name "Evolution Bot"
+          git config user.email "evolution@info100.local"
+          git add knowledge/raw/
+          git diff --cached --quiet || git commit -m "🤖 Auto-collect: $(date +%Y-%m-%d)"
+          git push
