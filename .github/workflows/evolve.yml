@@ -102,14 +102,14 @@ jobs:
           echo "Evolution log:"
           cat meta/evolution-log/*.jsonl 2>/dev/null | tail -5 || echo "No events"
       
-      - name: 💾 Commit generated skills [auto-synthesize]
-        run: |
-          git config user.name "Evolution Bot"
-          git config user.email "evolution@info100.local"
-          git add skills/generated/ meta/evolution-log/
-          git diff --cached --quiet || git commit -m "🧬 [auto-synthesize] $(date +%Y-%m-%d) — new skills"
-          git pull --rebase origin main || echo "Nothing to pull"
-          git push
+      - name: 🗂️ Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-skills
+          path: |
+            skills/generated/
+            meta/evolution-log/
+          retention-days: 1
 
   # ==========================================
   # STAGE 3: VALIDATE (Тестирование)
@@ -131,6 +131,12 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       
+      - name: 📥 Download generated skills
+        uses: actions/download-artifact@v4
+        with:
+          name: generated-skills
+          path: .
+      
       - name: 🧪 Run full test suite
         run: |
           echo "🧪 Testing all generated skills..."
@@ -149,17 +155,20 @@ jobs:
             [ -f "$f" ] && echo "$f: $(grep -A1 'fitness_score' "$f" 2>/dev/null | tail -1)"
           done || echo "No tested skills"
       
-      - name: 💾 Commit test results [auto-validate]
-        run: |
-          git config user.name "Evolution Bot"
-          git config user.email "evolution@info100.local"
-          git add skills/tested/ skills/retired/ skills/generated/ benchmarks/results/ meta/evolution-log/
-          git diff --cached --quiet || git commit -m "🧪 [auto-validate] $(date +%Y-%m-%d) — fitness updated"
-          git pull --rebase origin main || echo "Nothing to pull"
-          git push
+      - name: 🗂️ Upload test results
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results
+          path: |
+            skills/tested/
+            skills/retired/
+            skills/generated/
+            benchmarks/results/
+            meta/evolution-log/
+          retention-days: 1
 
   # ==========================================
-  # STAGE 4: REPORT (Отчёт в Issues)
+  # STAGE 4: REPORT + FINAL COMMIT
   # ==========================================
   report:
     needs: validate
@@ -181,6 +190,12 @@ jobs:
           pip install -r requirements.txt
           pip install PyGithub
       
+      - name: 📥 Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: test-results
+          path: .
+      
       - name: 📝 Generate and post report
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -189,11 +204,22 @@ jobs:
           python3 pipelines/report/issue-reporter.py
           echo "✅ Report posted"
       
-      - name: 💾 Commit report metadata
+      - name: 💾 Final commit — ALL results
         run: |
           git config user.name "Evolution Bot"
           git config user.email "evolution@info100.local"
-          git add meta/last-report.json
-          git diff --cached --quiet || git commit -m "📝 [auto-report] $(date +%Y-%m-%d)"
+          
+          # Add all changes from previous stages
+          git add skills/tested/ skills/retired/ skills/generated/ \
+                    benchmarks/results/ meta/evolution-log/ meta/last-report.json
+          
+          # Commit with summary
+          git diff --cached --quiet || git commit -m "🤖 [auto-evolution] $(date +%Y-%m-%d)
+
+- Auto-collect: info1 + data70
+- Auto-synthesize: new skills from methodologies  
+- Auto-validate: fitness tested, skills moved to tested/retired/
+- Report: posted to GitHub Issues"
+          
           git pull --rebase origin main || echo "Nothing to pull"
-          git push || echo "Nothing to commit"
+          git push
