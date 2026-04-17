@@ -18,6 +18,16 @@
       "id": "evolution-lab",
       "type": "concept",
       "name": "Эволюционная лаборатория"
+    },
+    {
+      "id": "data70",
+      "type": "repository",
+      "name": "svend4/data70"
+    },
+    {
+      "id": "wilos",
+      "type": "project",
+      "name": "WILOS"
     }
   ],
   "edges": [
@@ -32,7 +42,19 @@
       "to": "parallel-bidirectional",
       "relation": "uses",
       "strength": 0.7
+    },
+    {
+      "from": "wilos",
+      "to": "parallel-bidirectional",
+      "relation": "uses",
+      "strength": 0.7
+    },
+    {
+      "from": "data70",
+      "to": "info1",
+      "relation": "extends",
+      "strength": 0.9
     }
   ],
-  "last_updated": "2026-04-17"
+  "last_updated": "2026-04-17T21:41:51.808790"
 }

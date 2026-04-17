@@ -1,0 +1,110 @@
+{
+  "repo": "svend4/data70",
+  "collected_at": "2026-04-17T21:41:51.800728",
+  "total_objects": 176,
+  "markdown_processed": 15,
+  "json_processed": 2,
+  "projects_found": [
+    "робот",
+    "TetraDrone",
+    "AI",
+    "WILOS",
+    "drone"
+  ],
+  "files": [
+    {
+      "path": "MANIFEST.md",
+      "projects_found": [
+        "WILOS",
+        "TetraDrone",
+        "робот",
+        "drone"
+      ],
+      "size": 3493
+    },
+    {
+      "path": "README.md",
+      "projects_found": [
+        "WILOS",
+        "TetraDrone",
+        "робот",
+        "drone"
+      ],
+      "size": 1669
+    },
+    {
+      "path": "analysis_01_overview.md",
+      "projects_found": [
+        "робот"
+      ],
+      "size": 3297
+    },
+    {
+      "path": "analysis_02_top_projects.md",
+      "projects_found": [
+        "робот",
+        "TetraDrone",
+        "AI",
+        "WILOS",
+        "drone"
+      ],
+      "size": 8274
+    },
+    {
+      "path": "analysis_03_inventions.md",
+      "projects_found": [
+        "робот",
+        "TetraDrone",
+        "AI",
+        "WILOS",
+        "drone"
+      ],
+      "size": 6163
+    },
+    {
+      "path": "analysis_04_social_law.md",
+      "projects_found": [
+        "робот"
+      ],
+      "size": 5142
+    },
+    {
+      "path": "analysis_05_recommendations.md",
+      "projects_found": [
+        "TetraDrone",
+        "робот",
+        "AI",
+        "drone"
+      ],
+      "size": 5777
+    },
+    {
+      "path": "analysis_1105_conversations.md",
+      "projects_found": [
+        "TetraDrone",
+        "робот",
+        "AI",
+        "drone"
+      ],
+      "size": 12363
+    },
+    {
+      "path": "analysis_ai_topics.md",
+      "projects_found": [
+        "робот",
+        "TetraDrone",
+        "AI",
+        "WILOS",
+        "drone"
+      ],
+      "size": 34274
+    },
+    {
+      "path": "part10_deep_analysis.md",
+      "projects_found": [
+        "AI"
+      ],
+      "size": 15049
+    }
+  ]
+}

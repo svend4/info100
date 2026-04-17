@@ -1,0 +1,7829 @@
+{
+  "saved_at": "2026-03-28T00:00:00",
+  "nodes": [
+    {
+      "id": "theme_медицина_и_уход",
+      "label": "Медицина и уход",
+      "archetype": "MDEF",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "theme",
+        "conversations": 56,
+        "total_chars": 4700405
+      }
+    },
+    {
+      "id": "theme_ии_и_нейросети",
+      "label": "ИИ и нейросети",
+      "archetype": "ADCO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "theme",
+        "conversations": 144,
+        "total_chars": 10670888
+      }
+    },
+    {
+      "id": "theme_разное",
+      "label": "Разное",
+      "archetype": "ASEF",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "theme",
+        "conversations": 239,
+        "total_chars": 7337547
+      }
+    },
+    {
+      "id": "theme_программирование",
+      "label": "Программирование",
+      "archetype": "ADCO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "theme",
+        "conversations": 76,
+        "total_chars": 4464002
+      }
+    },
+    {
+      "id": "theme_робототехника",
+      "label": "Робототехника",
+      "archetype": "MDEO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "theme",
+        "conversations": 75,
+        "total_chars": 3245235
+      }
+    },
+    {
+      "id": "theme_социальное_право",
+      "label": "Социальное право",
+      "archetype": "MSCF",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "theme",
+        "conversations": 218,
+        "total_chars": 9402675
+      }
+    },
+    {
+      "id": "theme_автоматизация",
+      "label": "Автоматизация",
+      "archetype": "ADEO",
+      "weight": 0.44,
+      "embedding": [],
+      "metadata": {
+        "type": "theme",
+        "conversations": 22,
+        "total_chars": 800707
+      }
+    },
+    {
+      "id": "theme_e-commerce",
+      "label": "E-commerce",
+      "archetype": "MDCF",
+      "weight": 0.2,
+      "embedding": [],
+      "metadata": {
+        "type": "theme",
+        "conversations": 10,
+        "total_chars": 148991
+      }
+    },
+    {
+      "id": "theme_медиа_и_журналистика",
+      "label": "Медиа и журналистика",
+      "archetype": "MDEO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "theme",
+        "conversations": 73,
+        "total_chars": 2483142
+      }
+    },
+    {
+      "id": "theme_серверы_и_инфраструктура",
+      "label": "Серверы и инфраструктура",
+      "archetype": "MSCO",
+      "weight": 0.18,
+      "embedding": [],
+      "metadata": {
+        "type": "theme",
+        "conversations": 9,
+        "total_chars": 1060421
+      }
+    },
+    {
+      "id": "theme_философия_и_духовность",
+      "label": "Философия и духовность",
+      "archetype": "ASEF",
+      "weight": 0.36,
+      "embedding": [],
+      "metadata": {
+        "type": "theme",
+        "conversations": 18,
+        "total_chars": 958297
+      }
+    },
+    {
+      "id": "theme_дроны_и_бпла",
+      "label": "Дроны и БПЛА",
+      "archetype": "MDCO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "theme",
+        "conversations": 66,
+        "total_chars": 4996423
+      }
+    },
+    {
+      "id": "theme_боевые_искусства_(тсб)",
+      "label": "Боевые искусства (ТСБ)",
+      "archetype": "MDEF",
+      "weight": 0.32,
+      "embedding": [],
+      "metadata": {
+        "type": "theme",
+        "conversations": 16,
+        "total_chars": 415631
+      }
+    },
+    {
+      "id": "theme_математика_и_гармония",
+      "label": "Математика и гармония",
+      "archetype": "ASCO",
+      "weight": 0.48,
+      "embedding": [],
+      "metadata": {
+        "type": "theme",
+        "conversations": 24,
+        "total_chars": 3134856
+      }
+    },
+    {
+      "id": "theme_бизнес_и_стартапы",
+      "label": "Бизнес и стартапы",
+      "archetype": "MDCF",
+      "weight": 0.62,
+      "embedding": [],
+      "metadata": {
+        "type": "theme",
+        "conversations": 31,
+        "total_chars": 824681
+      }
+    },
+    {
+      "id": "theme_виртуальный_офис",
+      "label": "Виртуальный офис",
+      "archetype": "ADEO",
+      "weight": 0.22,
+      "embedding": [],
+      "metadata": {
+        "type": "theme",
+        "conversations": 11,
+        "total_chars": 304668
+      }
+    },
+    {
+      "id": "theme_транспорт_и_мобильность",
+      "label": "Транспорт и мобильность",
+      "archetype": "MDEO",
+      "weight": 0.06,
+      "embedding": [],
+      "metadata": {
+        "type": "theme",
+        "conversations": 3,
+        "total_chars": 75360
+      }
+    },
+    {
+      "id": "conv_1",
+      "label": "Медицинские письма для соцведомств",
+      "archetype": "MDEF",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 1,
+        "messages": 1365,
+        "chars": 2671780,
+        "depth": 5,
+        "concepts": [
+          "письма",
+          "социальных",
+          "чатах",
+          "всех",
+          "социальным"
+        ]
+      }
+    },
+    {
+      "id": "conv_2",
+      "label": "Двойной велосипед для пожилых",
+      "archetype": "MDEF",
+      "weight": 0.306356,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 2,
+        "messages": 29,
+        "chars": 153178,
+        "depth": 4,
+        "concepts": [
+          "велосипеда",
+          "turn",
+          "quot",
+          "image",
+          "side"
+        ]
+      }
+    },
+    {
+      "id": "conv_5",
+      "label": "Рационализация и ИИ",
+      "archetype": "ADCO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 5,
+        "messages": 1766,
+        "chars": 4228190,
+        "depth": 5,
+        "concepts": [
+          "новых",
+          "чтобы",
+          "рационализация",
+          "нейросети",
+          "например"
+        ]
+      }
+    },
+    {
+      "id": "conv_10",
+      "label": "Ветка · Ветка · Ветка · Moltbook и ИИ-агенты",
+      "archetype": "ADCO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 10,
+        "messages": 241,
+        "chars": 1836622,
+        "depth": 5,
+        "concepts": [
+          "quot",
+          "turn",
+          "cite",
+          "moltbook",
+          "search"
+        ]
+      }
+    },
+    {
+      "id": "conv_12",
+      "label": "Ветка · Ветка · Moltbook и ИИ-агенты",
+      "archetype": "ADCO",
+      "weight": 0.212172,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 12,
+        "messages": 23,
+        "chars": 106086,
+        "depth": 3,
+        "concepts": [
+          "quot",
+          "turn",
+          "cite",
+          "moltbook",
+          "search"
+        ]
+      }
+    },
+    {
+      "id": "conv_22",
+      "label": "111 социал KSV Schreiben Zusammenfassung",
+      "archetype": "MSCF",
+      "weight": 0.373386,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 22,
+        "messages": 9,
+        "chars": 186693,
+        "depth": 4,
+        "concepts": [
+          "filecite",
+          "turn",
+          "file",
+          "kurz",
+          "einzahlungen"
+        ]
+      }
+    },
+    {
+      "id": "conv_42",
+      "label": "Teilgespräch · Teilgespräch · Teilgespräch · Teilgespräch · ",
+      "archetype": "ASEF",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 42,
+        "messages": 395,
+        "chars": 557298,
+        "depth": 5,
+        "concepts": [
+          "turn",
+          "search",
+          "тестовые",
+          "cite",
+          "teilgespr"
+        ]
+      }
+    },
+    {
+      "id": "conv_63",
+      "label": "Компьютеры для инвалидов в Германии",
+      "archetype": "MSCF",
+      "weight": 0.217626,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 63,
+        "messages": 16,
+        "chars": 108813,
+        "depth": 3,
+        "concepts": [
+          "компьютеры",
+          "германии",
+          "параграф",
+          "компьютер",
+          "hilfsmittel"
+        ]
+      }
+    },
+    {
+      "id": "conv_64",
+      "label": "Блоки и уникальные слова",
+      "archetype": "ASEF",
+      "weight": 0.28043,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 64,
+        "messages": 29,
+        "chars": 140215,
+        "depth": 3,
+        "concepts": [
+          "turn",
+          "search",
+          "каждому",
+          "cite",
+          "блоки"
+        ]
+      }
+    },
+    {
+      "id": "conv_82",
+      "label": "777 технологии Пхова в буддизме и Бон",
+      "archetype": "ASEF",
+      "weight": 0.263344,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 82,
+        "messages": 51,
+        "chars": 131672,
+        "depth": 3,
+        "concepts": [
+          "пхова",
+          "turn",
+          "практика",
+          "image",
+          "смерти"
+        ]
+      }
+    },
+    {
+      "id": "conv_105",
+      "label": "Antrag auf Kindergeld",
+      "archetype": "ADCO",
+      "weight": 0.460718,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 105,
+        "messages": 48,
+        "chars": 230359,
+        "depth": 5,
+        "concepts": [
+          "kindergeld",
+          "antrag",
+          "behinderung",
+          "ckwirkende",
+          "fung"
+        ]
+      }
+    },
+    {
+      "id": "conv_132",
+      "label": "Ветка · Ветка · Как создать объявление",
+      "archetype": "ADCO",
+      "weight": 0.271788,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 132,
+        "messages": 34,
+        "chars": 135894,
+        "depth": 3,
+        "concepts": [
+          "cite",
+          "turn",
+          "view",
+          "объявление",
+          "inserat"
+        ]
+      }
+    },
+    {
+      "id": "conv_133",
+      "label": "Ветка · Как создать объявление",
+      "archetype": "ADCO",
+      "weight": 0.216722,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 133,
+        "messages": 26,
+        "chars": 108361,
+        "depth": 3,
+        "concepts": [
+          "cite",
+          "turn",
+          "view",
+          "объявление",
+          "inserat"
+        ]
+      }
+    },
+    {
+      "id": "conv_184",
+      "label": "111 социал Правовой каталог бюджета и ассистенции",
+      "archetype": "MSCF",
+      "weight": 0.543186,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 184,
+        "messages": 84,
+        "chars": 271593,
+        "depth": 5,
+        "concepts": [
+          "quot",
+          "pers",
+          "budget",
+          "monat",
+          "leistungen"
+        ]
+      }
+    },
+    {
+      "id": "conv_186",
+      "label": "777 Техника Tetra Pak переработка упаковки",
+      "archetype": "MDCF",
+      "weight": 0.209644,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 186,
+        "messages": 64,
+        "chars": 104822,
+        "depth": 3,
+        "concepts": [
+          "tetra",
+          "упаковке",
+          "кадров",
+          "визуальные",
+          "полка"
+        ]
+      }
+    },
+    {
+      "id": "conv_219",
+      "label": "Расклады таро",
+      "archetype": "ASEF",
+      "weight": 0.267182,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 219,
+        "messages": 46,
+        "chars": 133591,
+        "depth": 3,
+        "concepts": [
+          "расклад",
+          "quot",
+          "таро",
+          "вопрос",
+          "ситуации"
+        ]
+      }
+    },
+    {
+      "id": "conv_227",
+      "label": "Типы компьютерных игр",
+      "archetype": "ASEF",
+      "weight": 0.27189,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 227,
+        "messages": 34,
+        "chars": 135945,
+        "depth": 3,
+        "concepts": [
+          "игры",
+          "поджанры",
+          "simulator",
+          "компьютерных",
+          "примеры"
+        ]
+      }
+    },
+    {
+      "id": "conv_228",
+      "label": "777 техника Виртуальные миры жизни",
+      "archetype": "MSCF",
+      "weight": 0.367662,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 228,
+        "messages": 87,
+        "chars": 183831,
+        "depth": 4,
+        "concepts": [
+          "жизни",
+          "life",
+          "платформа",
+          "особенности",
+          "виртуальные"
+        ]
+      }
+    },
+    {
+      "id": "conv_237",
+      "label": "777 Техника Видео о картонных дронах",
+      "archetype": "MDEO",
+      "weight": 0.271984,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 237,
+        "messages": 71,
+        "chars": 135992,
+        "depth": 3,
+        "concepts": [
+          "видео",
+          "дроны",
+          "cite",
+          "turn",
+          "search"
+        ]
+      }
+    },
+    {
+      "id": "conv_255",
+      "label": "777 Техника Гибридные компьютеры для журналистики",
+      "archetype": "ADCO",
+      "weight": 0.33279,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 255,
+        "messages": 52,
+        "chars": 166395,
+        "depth": 4,
+        "concepts": [
+          "новостей",
+          "анализа",
+          "мини",
+          "нейросеть",
+          "майнер"
+        ]
+      }
+    },
+    {
+      "id": "conv_280",
+      "label": "Teilgespräch · Teilgespräch · Teilgespräch · Сравнение Git-с",
+      "archetype": "ADCO",
+      "weight": 0.33642,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 280,
+        "messages": 40,
+        "chars": 168210,
+        "depth": 4,
+        "concepts": [
+          "github",
+          "gitlab",
+          "open",
+          "source",
+          "teilgespr"
+        ]
+      }
+    },
+    {
+      "id": "conv_283",
+      "label": "Teilgespräch · Teilgespräch · Ветка · Отличия GitHub и GitBo",
+      "archetype": "ADCO",
+      "weight": 0.238814,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 283,
+        "messages": 46,
+        "chars": 119407,
+        "depth": 3,
+        "concepts": [
+          "github",
+          "gitbook",
+          "документация",
+          "хранить",
+          "проекты"
+        ]
+      }
+    },
+    {
+      "id": "conv_300",
+      "label": "Типы личности",
+      "archetype": "ASEF",
+      "weight": 0.285544,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 300,
+        "messages": 46,
+        "chars": 142772,
+        "depth": 3,
+        "concepts": [
+          "типов",
+          "mbti",
+          "личности",
+          "психотипов",
+          "людей"
+        ]
+      }
+    },
+    {
+      "id": "conv_317",
+      "label": "222 искусство Кольцо с жёлтым камнем",
+      "archetype": "ASEF",
+      "weight": 0.249956,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 317,
+        "messages": 227,
+        "chars": 124978,
+        "depth": 3,
+        "concepts": [
+          "quot",
+          "кольцо",
+          "ring",
+          "gemstone",
+          "heart"
+        ]
+      }
+    },
+    {
+      "id": "conv_326",
+      "label": "777 Технологии Анализ чатов по видеопамяти",
+      "archetype": "MDEO",
+      "weight": 0.271322,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 326,
+        "messages": 88,
+        "chars": 135661,
+        "depth": 3,
+        "concepts": [
+          "чатов",
+          "выводы",
+          "анализ",
+          "видеопамяти",
+          "речь"
+        ]
+      }
+    },
+    {
+      "id": "conv_328",
+      "label": "999 Программы Работа с информацией",
+      "archetype": "MSCF",
+      "weight": 0.76864,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 328,
+        "messages": 78,
+        "chars": 384320,
+        "depth": 5,
+        "concepts": [
+          "разных",
+          "например",
+          "объединить",
+          "работа",
+          "информации"
+        ]
+      }
+    },
+    {
+      "id": "conv_331",
+      "label": "999 Программы Nejroseti AI Blog",
+      "archetype": "ASEF",
+      "weight": 0.42377,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 331,
+        "messages": 95,
+        "chars": 211885,
+        "depth": 5,
+        "concepts": [
+          "turn",
+          "view",
+          "cite",
+          "генерация",
+          "nejroseti"
+        ]
+      }
+    },
+    {
+      "id": "conv_336",
+      "label": "Динамическая настройка веса",
+      "archetype": "MDEO",
+      "weight": 0.267784,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 336,
+        "messages": 24,
+        "chars": 133892,
+        "depth": 3,
+        "concepts": [
+          "dense",
+          "поиск",
+          "score",
+          "каждого",
+          "запроса"
+        ]
+      }
+    },
+    {
+      "id": "conv_338",
+      "label": "Число Пи",
+      "archetype": "ASCO",
+      "weight": 0.285696,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 338,
+        "messages": 71,
+        "chars": 142848,
+        "depth": 3,
+        "concepts": [
+          "число",
+          "окружности",
+          "запись",
+          "круга",
+          "появляется"
+        ]
+      }
+    },
+    {
+      "id": "conv_339",
+      "label": "Золотое сечение и пропорции",
+      "archetype": "ASCO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 339,
+        "messages": 380,
+        "chars": 1152257,
+        "depth": 5,
+        "concepts": [
+          "пропорции",
+          "вицин",
+          "одной",
+          "стороны",
+          "стороне"
+        ]
+      }
+    },
+    {
+      "id": "conv_340",
+      "label": "Ветка · Золотое сечение и пропорции",
+      "archetype": "ASCO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 340,
+        "messages": 192,
+        "chars": 547572,
+        "depth": 5,
+        "concepts": [
+          "пропорции",
+          "вицин",
+          "одной",
+          "стороны",
+          "стороне"
+        ]
+      }
+    },
+    {
+      "id": "conv_347",
+      "label": "Эвтаназия в Германии 2025",
+      "archetype": "MDEF",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 347,
+        "messages": 138,
+        "chars": 955844,
+        "depth": 5,
+        "concepts": [
+          "эвтаназия",
+          "германии",
+          "врач",
+          "году",
+          "sterbehilfe"
+        ]
+      }
+    },
+    {
+      "id": "conv_351",
+      "label": "Принцип двойственности в ИИ",
+      "archetype": "ASCO",
+      "weight": 0.679364,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 351,
+        "messages": 101,
+        "chars": 339682,
+        "depth": 5,
+        "concepts": [
+          "принцип",
+          "двойственности",
+          "дуальность",
+          "пара",
+          "встречается"
+        ]
+      }
+    },
+    {
+      "id": "conv_354",
+      "label": "Технологии Противоположности слов",
+      "archetype": "ASEF",
+      "weight": 0.214232,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 354,
+        "messages": 108,
+        "chars": 107116,
+        "depth": 3,
+        "concepts": [
+          "quot",
+          "один",
+          "ноль",
+          "добро",
+          "огонь"
+        ]
+      }
+    },
+    {
+      "id": "conv_356",
+      "label": "111 социал Judizielle Revolution der Teilhabe",
+      "archetype": "MSCF",
+      "weight": 0.548502,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 356,
+        "messages": 149,
+        "chars": 274251,
+        "depth": 5,
+        "concepts": [
+          "judizielle",
+          "revolution",
+          "bayern",
+          "https",
+          "statistik"
+        ]
+      }
+    },
+    {
+      "id": "conv_367",
+      "label": "111 социал Сравнение схем 10 и 70 пунктов",
+      "archetype": "MSCF",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 367,
+        "messages": 254,
+        "chars": 800192,
+        "depth": 5,
+        "concepts": [
+          "пунктов",
+          "excel",
+          "схем",
+          "документ",
+          "могу"
+        ]
+      }
+    },
+    {
+      "id": "conv_371",
+      "label": "111 социал Объединенный шаблон карточки",
+      "archetype": "MSCF",
+      "weight": 0.637828,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 371,
+        "messages": 20,
+        "chars": 318914,
+        "depth": 5,
+        "concepts": [
+          "услуги",
+          "описание",
+          "шаблон",
+          "формулировка",
+          "объединенный"
+        ]
+      }
+    },
+    {
+      "id": "conv_376",
+      "label": "111 социал 24/7 помощь психика Персональный бюджет в Германи",
+      "archetype": "MSCF",
+      "weight": 0.256822,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 376,
+        "messages": 18,
+        "chars": 128411,
+        "depth": 3,
+        "concepts": [
+          "turn",
+          "search",
+          "персональный",
+          "бюджет",
+          "cite"
+        ]
+      }
+    },
+    {
+      "id": "conv_381",
+      "label": "111 социал Rechtliche Fallbeispiele Übersicht",
+      "archetype": "MSCF",
+      "weight": 0.31181,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 381,
+        "messages": 47,
+        "chars": 155905,
+        "depth": 4,
+        "concepts": [
+          "quot",
+          "fundstelle",
+          "randnummer",
+          "juris",
+          "nicht"
+        ]
+      }
+    },
+    {
+      "id": "conv_404",
+      "label": "Рынок памяти 2025",
+      "archetype": "ASEF",
+      "weight": 0.632614,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 404,
+        "messages": 98,
+        "chars": 316307,
+        "depth": 5,
+        "concepts": [
+          "цены",
+          "turn",
+          "cite",
+          "памяти",
+          "lpddr"
+        ]
+      }
+    },
+    {
+      "id": "conv_416",
+      "label": "Link shared",
+      "archetype": "MDEO",
+      "weight": 0.209802,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 416,
+        "messages": 73,
+        "chars": 104901,
+        "depth": 3,
+        "concepts": [
+          "youtube",
+          "link",
+          "https",
+          "watch",
+          "pjmo"
+        ]
+      }
+    },
+    {
+      "id": "conv_426",
+      "label": "Rechtskatalog Persönliches Budget",
+      "archetype": "MSCF",
+      "weight": 0.204066,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 426,
+        "messages": 8,
+        "chars": 102033,
+        "depth": 3,
+        "concepts": [
+          "pers",
+          "teilhabe",
+          "nliches",
+          "budget",
+          "rechtskatalog"
+        ]
+      }
+    },
+    {
+      "id": "conv_458",
+      "label": "YouTube-Jurist Prozessinvestoren holen",
+      "archetype": "ADCO",
+      "weight": 0.278534,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 458,
+        "messages": 44,
+        "chars": 139267,
+        "depth": 3,
+        "concepts": [
+          "quot",
+          "turn",
+          "search",
+          "youtube",
+          "prozessinvestoren"
+        ]
+      }
+    },
+    {
+      "id": "conv_470",
+      "label": "Bayerns Drohnen Robotik Plattform",
+      "archetype": "MDEO",
+      "weight": 0.434942,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 470,
+        "messages": 129,
+        "chars": 217471,
+        "depth": 5,
+        "concepts": [
+          "roboter",
+          "eine",
+          "durch",
+          "drohnen",
+          "bayern"
+        ]
+      }
+    },
+    {
+      "id": "conv_484",
+      "label": "Нейросети топовые 2025",
+      "archetype": "ADCO",
+      "weight": 0.815958,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 484,
+        "messages": 103,
+        "chars": 407979,
+        "depth": 5,
+        "concepts": [
+          "turn",
+          "cite",
+          "view",
+          "визитов",
+          "млрд"
+        ]
+      }
+    },
+    {
+      "id": "conv_492",
+      "label": "Умный офис подписка",
+      "archetype": "MDCF",
+      "weight": 0.241464,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 492,
+        "messages": 53,
+        "chars": 120732,
+        "depth": 3,
+        "concepts": [
+          "тому",
+          "подобное",
+          "офиса",
+          "телевидения",
+          "люди"
+        ]
+      }
+    },
+    {
+      "id": "conv_517",
+      "label": "Акробат студио уточнение",
+      "archetype": "ASEF",
+      "weight": 0.200848,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 517,
+        "messages": 33,
+        "chars": 100424,
+        "depth": 3,
+        "concepts": [
+          "adobe",
+          "acrobat",
+          "создание",
+          "текста",
+          "акробат"
+        ]
+      }
+    },
+    {
+      "id": "conv_522",
+      "label": "Инфоброкеры базы данных",
+      "archetype": "ASEF",
+      "weight": 0.300014,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 522,
+        "messages": 34,
+        "chars": 150007,
+        "depth": 4,
+        "concepts": [
+          "данных",
+          "инфоброкеры",
+          "базы",
+          "реестры",
+          "правовые"
+        ]
+      }
+    },
+    {
+      "id": "conv_529",
+      "label": "Доктор Берг результаты анализа",
+      "archetype": "MDEF",
+      "weight": 0.27044,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 529,
+        "messages": 9,
+        "chars": 135220,
+        "depth": 3,
+        "concepts": [
+          "теста",
+          "доктора",
+          "берга",
+          "результаты",
+          "здоровья"
+        ]
+      }
+    },
+    {
+      "id": "conv_570",
+      "label": "Водный беспилотник дрон",
+      "archetype": "MDCO",
+      "weight": 0.602198,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 570,
+        "messages": 257,
+        "chars": 301099,
+        "depth": 5,
+        "concepts": [
+          "подводных",
+          "крыльях",
+          "крыльев",
+          "воде",
+          "сплавы"
+        ]
+      }
+    },
+    {
+      "id": "conv_586",
+      "label": "Пассивный дрон ретранслятор",
+      "archetype": "MDCO",
+      "weight": 0.2487,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 586,
+        "messages": 71,
+        "chars": 124350,
+        "depth": 3,
+        "concepts": [
+          "пассивный",
+          "связи",
+          "дрон",
+          "необходимости",
+          "ретранслятор"
+        ]
+      }
+    },
+    {
+      "id": "conv_587",
+      "label": "SaaS на Linux",
+      "archetype": "MDEO",
+      "weight": 0.447834,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 587,
+        "messages": 90,
+        "chars": 223917,
+        "depth": 5,
+        "concepts": [
+          "linux",
+          "saas",
+          "облачная",
+          "через",
+          "системы"
+        ]
+      }
+    },
+    {
+      "id": "conv_609",
+      "label": "Мормоны и их учение",
+      "archetype": "ASEF",
+      "weight": 0.270032,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 609,
+        "messages": 85,
+        "chars": 135016,
+        "depth": 3,
+        "concepts": [
+          "мормоны",
+          "церкви",
+          "church",
+          "книга",
+          "мормона"
+        ]
+      }
+    },
+    {
+      "id": "conv_618",
+      "label": "абриаль база данных и яси",
+      "archetype": "MSCF",
+      "weight": 0.774634,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 618,
+        "messages": 253,
+        "chars": 387317,
+        "depth": 5,
+        "concepts": [
+          "stunden",
+          "pflegegrad",
+          "zeitaufwand",
+          "hilfe",
+          "beim"
+        ]
+      }
+    },
+    {
+      "id": "conv_631",
+      "label": "Обзор Supermicro CSE-829",
+      "archetype": "MSCO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 631,
+        "messages": 356,
+        "chars": 603914,
+        "depth": 5,
+        "concepts": [
+          "turn",
+          "search",
+          "cite",
+          "supermicro",
+          "lrdimm"
+        ]
+      }
+    },
+    {
+      "id": "conv_642",
+      "label": "Наземные дроны и применение",
+      "archetype": "MDCO",
+      "weight": 0.36602,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 642,
+        "messages": 45,
+        "chars": 183010,
+        "depth": 4,
+        "concepts": [
+          "наземные",
+          "дроны",
+          "автономных",
+          "наземных",
+          "транспортных"
+        ]
+      }
+    },
+    {
+      "id": "conv_665",
+      "label": "Дрон и фламберг",
+      "archetype": "MDCO",
+      "weight": 0.542174,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 665,
+        "messages": 234,
+        "chars": 271087,
+        "depth": 5,
+        "concepts": [
+          "quot",
+          "дрон",
+          "фламберг",
+          "концепт",
+          "лопасть"
+        ]
+      }
+    },
+    {
+      "id": "conv_679",
+      "label": "Алан Дершовиц опыт адвоката",
+      "archetype": "ASEF",
+      "weight": 0.235514,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 679,
+        "messages": 56,
+        "chars": 117757,
+        "depth": 3,
+        "concepts": [
+          "quot",
+          "алан",
+          "этой",
+          "дершовиц",
+          "адвокат"
+        ]
+      }
+    },
+    {
+      "id": "conv_701",
+      "label": "Оперативная или видеопамять",
+      "archetype": "ADCO",
+      "weight": 0.43208,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 701,
+        "messages": 126,
+        "chars": 216040,
+        "depth": 5,
+        "concepts": [
+          "vram",
+          "модель",
+          "видеопамять",
+          "оперативная",
+          "память"
+        ]
+      }
+    },
+    {
+      "id": "conv_703",
+      "label": "Видео о 160-ядерном суперкомпьютере",
+      "archetype": "MDEO",
+      "weight": 0.433552,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 703,
+        "messages": 75,
+        "chars": 216776,
+        "depth": 5,
+        "concepts": [
+          "turn",
+          "search",
+          "quot",
+          "cite",
+          "видео"
+        ]
+      }
+    },
+    {
+      "id": "conv_711",
+      "label": "Make.com Automation Overview",
+      "archetype": "ADEO",
+      "weight": 0.827258,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 711,
+        "messages": 269,
+        "chars": 413629,
+        "depth": 5,
+        "concepts": [
+          "make",
+          "automation",
+          "visual",
+          "templates",
+          "data"
+        ]
+      }
+    },
+    {
+      "id": "conv_713",
+      "label": "Программирование vs вайб-кодинг",
+      "archetype": "ADCO",
+      "weight": 0.842596,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 713,
+        "messages": 301,
+        "chars": 421298,
+        "depth": 5,
+        "concepts": [
+          "quot",
+          "vibe",
+          "делает",
+          "вайб",
+          "программист"
+        ]
+      }
+    },
+    {
+      "id": "conv_722",
+      "label": "УМПК для ФАБ",
+      "archetype": "MDEO",
+      "weight": 0.29222,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 722,
+        "messages": 91,
+        "chars": 146110,
+        "depth": 3,
+        "concepts": [
+          "умпк",
+          "turn",
+          "image",
+          "снарядов",
+          "планирования"
+        ]
+      }
+    },
+    {
+      "id": "conv_732",
+      "label": "1-Bit LLM Efficiency",
+      "archetype": "ADCO",
+      "weight": 0.830648,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 732,
+        "messages": 191,
+        "chars": 415324,
+        "depth": 5,
+        "concepts": [
+          "cite",
+          "models",
+          "bitnet",
+          "turn",
+          "search"
+        ]
+      }
+    },
+    {
+      "id": "conv_741",
+      "label": "Что такое смарт оффис",
+      "archetype": "MDEO",
+      "weight": 0.21903,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 741,
+        "messages": 121,
+        "chars": 109515,
+        "depth": 3,
+        "concepts": [
+          "офис",
+          "смарт",
+          "система",
+          "такое",
+          "оффис"
+        ]
+      }
+    },
+    {
+      "id": "conv_746",
+      "label": "Производство дронов из Украины в Германии",
+      "archetype": "MDCO",
+      "weight": 0.663702,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 746,
+        "messages": 134,
+        "chars": 331851,
+        "depth": 5,
+        "concepts": [
+          "quot",
+          "query",
+          "германии",
+          "spielzeugmanufaktur",
+          "turn"
+        ]
+      }
+    },
+    {
+      "id": "conv_747",
+      "label": "Сборка кластера Raspberry Pi",
+      "archetype": "MSCO",
+      "weight": 0.615316,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 747,
+        "messages": 154,
+        "chars": 307658,
+        "depth": 5,
+        "concepts": [
+          "raspberry",
+          "кластера",
+          "собрать",
+          "кластер",
+          "маленьких"
+        ]
+      }
+    },
+    {
+      "id": "conv_762",
+      "label": "Что такое вайб программирование",
+      "archetype": "ADCO",
+      "weight": 0.649138,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 762,
+        "messages": 114,
+        "chars": 324569,
+        "depth": 5,
+        "concepts": [
+          "когда",
+          "вайб",
+          "программирование",
+          "работает",
+          "такое"
+        ]
+      }
+    },
+    {
+      "id": "conv_768",
+      "label": "Таро сюрреализм концепты",
+      "archetype": "ASEF",
+      "weight": 0.468234,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 768,
+        "messages": 350,
+        "chars": 234117,
+        "depth": 5,
+        "concepts": [
+          "башня",
+          "тетриса",
+          "таро",
+          "карта",
+          "образ"
+        ]
+      }
+    },
+    {
+      "id": "conv_769",
+      "label": "Queen of the Vamp 4K",
+      "archetype": "MDEO",
+      "weight": 0.244888,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 769,
+        "messages": 159,
+        "chars": 122444,
+        "depth": 3,
+        "concepts": [
+          "turn",
+          "search",
+          "cite",
+          "metal",
+          "queen"
+        ]
+      }
+    },
+    {
+      "id": "conv_794",
+      "label": "Protector UGV Overview",
+      "archetype": "MDCO",
+      "weight": 0.817364,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 794,
+        "messages": 205,
+        "chars": 408682,
+        "depth": 5,
+        "concepts": [
+          "quot",
+          "turn",
+          "cite",
+          "view",
+          "search"
+        ]
+      }
+    },
+    {
+      "id": "conv_795",
+      "label": "4K камера для дронов",
+      "archetype": "MDCO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 795,
+        "messages": 522,
+        "chars": 1980145,
+        "depth": 5,
+        "concepts": [
+          "несколько",
+          "turn",
+          "search",
+          "дронов",
+          "сенсоры"
+        ]
+      }
+    },
+    {
+      "id": "conv_803",
+      "label": "Пирамида данных и файлов",
+      "archetype": "ASCO",
+      "weight": 0.878068,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 803,
+        "messages": 56,
+        "chars": 439034,
+        "depth": 5,
+        "concepts": [
+          "пирамиды",
+          "уровень",
+          "файлов",
+          "вершина",
+          "каталога"
+        ]
+      }
+    },
+    {
+      "id": "conv_816",
+      "label": "YouTube Shorts help",
+      "archetype": "MDEO",
+      "weight": 0.234462,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 816,
+        "messages": 68,
+        "chars": 117231,
+        "depth": 3,
+        "concepts": [
+          "shorts",
+          "youtube",
+          "what",
+          "help",
+          "видео"
+        ]
+      }
+    },
+    {
+      "id": "conv_823",
+      "label": "HTML code structure",
+      "archetype": "ADCO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 823,
+        "messages": 140,
+        "chars": 532996,
+        "depth": 5,
+        "concepts": [
+          "quot",
+          "script",
+          "https",
+          "react",
+          "html"
+        ]
+      }
+    },
+    {
+      "id": "conv_824",
+      "label": "Budget calculator review",
+      "archetype": "ADCO",
+      "weight": 0.206026,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 824,
+        "messages": 12,
+        "chars": 103013,
+        "depth": 3,
+        "concepts": [
+          "quot",
+          "hours",
+          "react",
+          "render",
+          "reactdom"
+        ]
+      }
+    },
+    {
+      "id": "conv_827",
+      "label": "React budget calculator fixes",
+      "archetype": "ADCO",
+      "weight": 0.906538,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 827,
+        "messages": 39,
+        "chars": 453269,
+        "depth": 5,
+        "concepts": [
+          "const",
+          "usestate",
+          "react",
+          "calculator",
+          "false"
+        ]
+      }
+    },
+    {
+      "id": "conv_834",
+      "label": "Дискриминация и антидискриминация",
+      "archetype": "MSCF",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 834,
+        "messages": 173,
+        "chars": 533443,
+        "depth": 5,
+        "concepts": [
+          "дискриминация",
+          "антидискриминация",
+          "такое",
+          "антидескриминация",
+          "положение"
+        ]
+      }
+    },
+    {
+      "id": "conv_892",
+      "label": "111 Antrag auf Fristverlängerung",
+      "archetype": "MSCF",
+      "weight": 0.346418,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 892,
+        "messages": 209,
+        "chars": 173209,
+        "depth": 4,
+        "concepts": [
+          "pers",
+          "eine",
+          "nliches",
+          "budget",
+          "ngerung"
+        ]
+      }
+    },
+    {
+      "id": "conv_894",
+      "label": "111 BSG Entscheidung Persönliches Budget",
+      "archetype": "MSCF",
+      "weight": 0.218798,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 894,
+        "messages": 51,
+        "chars": 109399,
+        "depth": 3,
+        "concepts": [
+          "pers",
+          "nliches",
+          "budget",
+          "бюджет",
+          "сумма"
+        ]
+      }
+    },
+    {
+      "id": "conv_934",
+      "label": "111 социал Расширение структуры социальной работы",
+      "archetype": "MSCF",
+      "weight": 0.71026,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 934,
+        "messages": 177,
+        "chars": 355130,
+        "depth": 5,
+        "concepts": [
+          "применимость",
+          "описание",
+          "участия",
+          "подпункты",
+          "расширение"
+        ]
+      }
+    },
+    {
+      "id": "conv_985",
+      "label": "111 социал Eingliederungshilfe für Behinderte",
+      "archetype": "MSCF",
+      "weight": 0.426064,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 985,
+        "messages": 20,
+        "chars": 213032,
+        "depth": 5,
+        "concepts": [
+          "eingliederungshilfe",
+          "unterst",
+          "oder",
+          "menschen",
+          "tzung"
+        ]
+      }
+    },
+    {
+      "id": "conv_999",
+      "label": "111 социал Шаблон карточки SGB",
+      "archetype": "MSCF",
+      "weight": 0.477298,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 999,
+        "messages": 92,
+        "chars": 238649,
+        "depth": 5,
+        "concepts": [
+          "шаблон",
+          "карточки",
+          "описание",
+          "формулировка",
+          "оформления"
+        ]
+      }
+    },
+    {
+      "id": "conv_1001",
+      "label": "1111 социал Расшифровка шаблона карточки",
+      "archetype": "MSCF",
+      "weight": 0.267192,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 1001,
+        "messages": 68,
+        "chars": 133596,
+        "depth": 3,
+        "concepts": [
+          "пример",
+          "шаблона",
+          "карточки",
+          "расшифровка",
+          "всех"
+        ]
+      }
+    },
+    {
+      "id": "conv_1037",
+      "label": "Альберт Валентинов теория",
+      "archetype": "MDEO",
+      "weight": 0.351764,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 1037,
+        "messages": 107,
+        "chars": 175882,
+        "depth": 4,
+        "concepts": [
+          "валентинов",
+          "альберт",
+          "теория",
+          "невероятности",
+          "российской"
+        ]
+      }
+    },
+    {
+      "id": "conv_1040",
+      "label": "Файлы DjVu и msf",
+      "archetype": "ASEF",
+      "weight": 0.380798,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 1040,
+        "messages": 117,
+        "chars": 190399,
+        "depth": 4,
+        "concepts": [
+          "djvu",
+          "файл",
+          "файла",
+          "текст",
+          "изображения"
+        ]
+      }
+    },
+    {
+      "id": "conv_1041",
+      "label": "Файл загрузка и распаковка",
+      "archetype": "ASEF",
+      "weight": 0.404308,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 1041,
+        "messages": 130,
+        "chars": 202154,
+        "depth": 5,
+        "concepts": [
+          "quot",
+          "neural",
+          "файл",
+          "хочешь",
+          "каталог"
+        ]
+      }
+    },
+    {
+      "id": "conv_1045",
+      "label": "CIHBw сотрудничество стартапов",
+      "archetype": "MDCF",
+      "weight": 0.254812,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 1045,
+        "messages": 59,
+        "chars": 127406,
+        "depth": 3,
+        "concepts": [
+          "cihbw",
+          "стартапов",
+          "бундесвера",
+          "через",
+          "bundeswehr"
+        ]
+      }
+    },
+    {
+      "id": "conv_1049",
+      "label": "Арт-объект обсуждение",
+      "archetype": "MDEO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 1049,
+        "messages": 682,
+        "chars": 759528,
+        "depth": 5,
+        "concepts": [
+          "quot",
+          "психологический",
+          "персонаж",
+          "объект",
+          "очки"
+        ]
+      }
+    },
+    {
+      "id": "conv_1055",
+      "label": "Инструменты в GPT",
+      "archetype": "ADCO",
+      "weight": 0.239814,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 1055,
+        "messages": 121,
+        "chars": 119907,
+        "depth": 3,
+        "concepts": [
+          "инструменты",
+          "linux",
+          "внутри",
+          "quot",
+          "https"
+        ]
+      }
+    },
+    {
+      "id": "conv_1056",
+      "label": "Управление памятью GPT",
+      "archetype": "ADCO",
+      "weight": 0.353238,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 1056,
+        "messages": 171,
+        "chars": 176619,
+        "depth": 4,
+        "concepts": [
+          "память",
+          "quot",
+          "например",
+          "управление",
+          "памятью"
+        ]
+      }
+    },
+    {
+      "id": "conv_1061",
+      "label": "Загадка про буквы",
+      "archetype": "ASEF",
+      "weight": 0.352112,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 1061,
+        "messages": 174,
+        "chars": 176056,
+        "depth": 4,
+        "concepts": [
+          "трубе",
+          "остался",
+          "упало",
+          "пропало",
+          "quot"
+        ]
+      }
+    },
+    {
+      "id": "conv_1077",
+      "label": "Двоичная система счисления",
+      "archetype": "ASEF",
+      "weight": 0.212888,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 1077,
+        "messages": 51,
+        "chars": 106444,
+        "depth": 3,
+        "concepts": [
+          "остаток",
+          "система",
+          "двоичной",
+          "двоичная",
+          "счисления"
+        ]
+      }
+    },
+    {
+      "id": "conv_1080",
+      "label": "How can I help",
+      "archetype": "ADCO",
+      "weight": 0.456298,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 1080,
+        "messages": 116,
+        "chars": 228149,
+        "depth": 5,
+        "concepts": [
+          "файла",
+          "файл",
+          "хотите",
+          "анализ",
+          "анализа"
+        ]
+      }
+    },
+    {
+      "id": "conv_1085",
+      "label": "Page Summary Request",
+      "archetype": "ASEF",
+      "weight": 0.276774,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 1085,
+        "messages": 59,
+        "chars": 138387,
+        "depth": 3,
+        "concepts": [
+          "quot",
+          "тоналя",
+          "сознания",
+          "анализ",
+          "реальности"
+        ]
+      }
+    },
+    {
+      "id": "conv_1088",
+      "label": "Site Access Request",
+      "archetype": "ASEF",
+      "weight": 0.231868,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 1088,
+        "messages": 55,
+        "chars": 115934,
+        "depth": 3,
+        "concepts": [
+          "данные",
+          "странице",
+          "проанализировать",
+          "сюда",
+          "mysite"
+        ]
+      }
+    },
+    {
+      "id": "conv_1090",
+      "label": "Document summary request",
+      "archetype": "ASEF",
+      "weight": 0.48288,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 1090,
+        "messages": 144,
+        "chars": 241440,
+        "depth": 5,
+        "concepts": [
+          "анализ",
+          "документа",
+          "текста",
+          "звуков",
+          "колебаний"
+        ]
+      }
+    },
+    {
+      "id": "conv_1094",
+      "label": "Складное колесо телеги",
+      "archetype": "MDEO",
+      "weight": 0.851558,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 1094,
+        "messages": 288,
+        "chars": 425779,
+        "depth": 5,
+        "concepts": [
+          "колесо",
+          "спицы",
+          "телеги",
+          "обод",
+          "складное"
+        ]
+      }
+    },
+    {
+      "id": "conv_1095",
+      "label": "Стихи Стефана Энгеля",
+      "archetype": "ASEF",
+      "weight": 0.25462,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 1095,
+        "messages": 61,
+        "chars": 127310,
+        "depth": 3,
+        "concepts": [
+          "quot",
+          "stihi",
+          "стихи",
+          "стефана",
+          "энгеля"
+        ]
+      }
+    },
+    {
+      "id": "conv_1101",
+      "label": "Advayta Library Inquiry",
+      "archetype": "ASEF",
+      "weight": 0.277478,
+      "embedding": [],
+      "metadata": {
+        "type": "project",
+        "num": 1101,
+        "messages": 77,
+        "chars": 138739,
+        "depth": 3,
+        "concepts": [
+          "library",
+          "advayta",
+          "spiritual",
+          "turn",
+          "quot"
+        ]
+      }
+    },
+    {
+      "id": "concept_quot",
+      "label": "quot",
+      "archetype": "ASCO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 182,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "Философия и духовность",
+          "Математика и гармония",
+          "ИИ и нейросети",
+          "Транспорт и мобильность",
+          "Бизнес и стартапы",
+          "E-commerce",
+          "Боевые искусства (ТСБ)",
+          "Медиа и журналистика",
+          "Разное",
+          "Виртуальный офис",
+          "Программирование",
+          "Медицина и уход",
+          "Автоматизация",
+          "Дроны и БПЛА"
+        ]
+      }
+    },
+    {
+      "id": "concept_turn",
+      "label": "turn",
+      "archetype": "ASCO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 181,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "Философия и духовность",
+          "Математика и гармония",
+          "ИИ и нейросети",
+          "Серверы и инфраструктура",
+          "Бизнес и стартапы",
+          "Транспорт и мобильность",
+          "E-commerce",
+          "Разное",
+          "Медиа и журналистика",
+          "Боевые искусства (ТСБ)",
+          "Виртуальный офис",
+          "Программирование",
+          "Медицина и уход",
+          "Автоматизация",
+          "Дроны и БПЛА"
+        ]
+      }
+    },
+    {
+      "id": "concept_cite",
+      "label": "cite",
+      "archetype": "ASCO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 130,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "Математика и гармония",
+          "ИИ и нейросети",
+          "Серверы и инфраструктура",
+          "Бизнес и стартапы",
+          "Транспорт и мобильность",
+          "E-commerce",
+          "Разное",
+          "Медиа и журналистика",
+          "Виртуальный офис",
+          "Программирование",
+          "Медицина и уход",
+          "Автоматизация",
+          "Дроны и БПЛА"
+        ]
+      }
+    },
+    {
+      "id": "concept_search",
+      "label": "search",
+      "archetype": "ASCO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 116,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "Математика и гармония",
+          "ИИ и нейросети",
+          "Серверы и инфраструктура",
+          "Бизнес и стартапы",
+          "Транспорт и мобильность",
+          "E-commerce",
+          "Разное",
+          "Медиа и журналистика",
+          "Виртуальный офис",
+          "Программирование",
+          "Медицина и уход",
+          "Автоматизация",
+          "Дроны и БПЛА"
+        ]
+      }
+    },
+    {
+      "id": "concept_например",
+      "label": "например",
+      "archetype": "ASCO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 72,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "Математика и гармония",
+          "ИИ и нейросети",
+          "Транспорт и мобильность",
+          "Бизнес и стартапы",
+          "E-commerce",
+          "Разное",
+          "Медиа и журналистика",
+          "Виртуальный офис",
+          "Программирование",
+          "Медицина и уход",
+          "Автоматизация",
+          "Дроны и БПЛА"
+        ]
+      }
+    },
+    {
+      "id": "concept_германии",
+      "label": "германии",
+      "archetype": "ASCO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 44,
+        "themes": [
+          "Социальное право",
+          "ИИ и нейросети",
+          "Боевые искусства (ТСБ)",
+          "Разное",
+          "Медицина и уход",
+          "Дроны и БПЛА"
+        ]
+      }
+    },
+    {
+      "id": "concept_https",
+      "label": "https",
+      "archetype": "ASCO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 42,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "Философия и духовность",
+          "ИИ и нейросети",
+          "Бизнес и стартапы",
+          "Медиа и журналистика",
+          "Разное",
+          "Программирование",
+          "Медицина и уход",
+          "Автоматизация",
+          "Дроны и БПЛА"
+        ]
+      }
+    },
+    {
+      "id": "concept_youtube",
+      "label": "youtube",
+      "archetype": "ASCO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 30,
+        "themes": [
+          "Социальное право",
+          "ИИ и нейросети",
+          "Медиа и журналистика",
+          "Программирование",
+          "Медицина и уход",
+          "Дроны и БПЛА"
+        ]
+      }
+    },
+    {
+      "id": "concept_помощь",
+      "label": "помощь",
+      "archetype": "ASCO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 29,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "Медицина и уход"
+        ]
+      }
+    },
+    {
+      "id": "concept_видео",
+      "label": "видео",
+      "archetype": "ASCO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 28,
+        "themes": [
+          "Робототехника",
+          "Дроны и БПЛА",
+          "Медиа и журналистика"
+        ]
+      }
+    },
+    {
+      "id": "concept_image",
+      "label": "image",
+      "archetype": "ASCO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 27,
+        "themes": [
+          "Робототехника",
+          "Философия и духовность",
+          "ИИ и нейросети",
+          "Медиа и журналистика",
+          "Разное",
+          "Программирование",
+          "Медицина и уход",
+          "Дроны и БПЛА"
+        ]
+      }
+    },
+    {
+      "id": "concept_github",
+      "label": "github",
+      "archetype": "ASCO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 25,
+        "themes": [
+          "Автоматизация",
+          "Робототехника",
+          "Программирование",
+          "ИИ и нейросети"
+        ]
+      }
+    },
+    {
+      "id": "concept_данных",
+      "label": "данных",
+      "archetype": "ASCO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 25,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "Математика и гармония",
+          "ИИ и нейросети",
+          "Серверы и инфраструктура",
+          "Бизнес и стартапы",
+          "Разное",
+          "Программирование",
+          "Медицина и уход",
+          "Дроны и БПЛА"
+        ]
+      }
+    },
+    {
+      "id": "concept_chatgpt",
+      "label": "chatgpt",
+      "archetype": "ASCO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 24,
+        "themes": [
+          "ИИ и нейросети",
+          "Программирование",
+          "Робототехника"
+        ]
+      }
+    },
+    {
+      "id": "concept_чтобы",
+      "label": "чтобы",
+      "archetype": "ASCO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 22,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "ИИ и нейросети",
+          "Боевые искусства (ТСБ)",
+          "Разное",
+          "Медиа и журналистика",
+          "Медицина и уход",
+          "Дроны и БПЛА"
+        ]
+      }
+    },
+    {
+      "id": "concept_view",
+      "label": "view",
+      "archetype": "ASCO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 21,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "ИИ и нейросети",
+          "Бизнес и стартапы",
+          "Разное",
+          "Медиа и журналистика",
+          "Программирование",
+          "Медицина и уход",
+          "Дроны и БПЛА"
+        ]
+      }
+    },
+    {
+      "id": "concept_дронов",
+      "label": "дронов",
+      "archetype": "ASCO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 21,
+        "themes": [
+          "Робототехника",
+          "Дроны и БПЛА"
+        ]
+      }
+    },
+    {
+      "id": "concept_google",
+      "label": "google",
+      "archetype": "ASCO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 20,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "ИИ и нейросети",
+          "E-commerce",
+          "Разное",
+          "Медиа и журналистика",
+          "Виртуальный офис",
+          "Программирование",
+          "Автоматизация"
+        ]
+      }
+    },
+    {
+      "id": "concept_проекты",
+      "label": "проекты",
+      "archetype": "ASCO",
+      "weight": 1.0,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 20,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "ИИ и нейросети",
+          "Бизнес и стартапы",
+          "Разное",
+          "Программирование",
+          "Дроны и БПЛА"
+        ]
+      }
+    },
+    {
+      "id": "concept_make",
+      "label": "make",
+      "archetype": "ASCO",
+      "weight": 0.9,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 18,
+        "themes": [
+          "Автоматизация",
+          "ИИ и нейросети",
+          "E-commerce",
+          "Робототехника"
+        ]
+      }
+    },
+    {
+      "id": "concept_анализ",
+      "label": "анализ",
+      "archetype": "ASCO",
+      "weight": 0.85,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 17,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "Философия и духовность",
+          "ИИ и нейросети",
+          "Разное",
+          "Медиа и журналистика",
+          "Боевые искусства (ТСБ)",
+          "Программирование"
+        ]
+      }
+    },
+    {
+      "id": "concept_могу",
+      "label": "могу",
+      "archetype": "ASCO",
+      "weight": 0.8,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 16,
+        "themes": [
+          "Социальное право",
+          "ИИ и нейросети",
+          "Разное",
+          "Медиа и журналистика",
+          "Программирование",
+          "Медицина и уход",
+          "Дроны и БПЛА"
+        ]
+      }
+    },
+    {
+      "id": "concept_такое",
+      "label": "такое",
+      "archetype": "ASCO",
+      "weight": 0.8,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 16,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "ИИ и нейросети",
+          "Бизнес и стартапы",
+          "Медиа и журналистика",
+          "Разное",
+          "Боевые искусства (ТСБ)",
+          "Программирование"
+        ]
+      }
+    },
+    {
+      "id": "concept_oder",
+      "label": "oder",
+      "archetype": "ASCO",
+      "weight": 0.8,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 16,
+        "themes": [
+          "Социальное право",
+          "Разное",
+          "Медицина и уход"
+        ]
+      }
+    },
+    {
+      "id": "concept_перевод",
+      "label": "перевод",
+      "archetype": "ASCO",
+      "weight": 0.75,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 15,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "ИИ и нейросети",
+          "Медиа и журналистика",
+          "Разное",
+          "Программирование",
+          "Медицина и уход"
+        ]
+      }
+    },
+    {
+      "id": "concept_дроны",
+      "label": "дроны",
+      "archetype": "ASCO",
+      "weight": 0.75,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 15,
+        "themes": [
+          "Робототехника",
+          "Дроны и БПЛА",
+          "Медиа и журналистика"
+        ]
+      }
+    },
+    {
+      "id": "concept_через",
+      "label": "через",
+      "archetype": "ASCO",
+      "weight": 0.7,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 14,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "Серверы и инфраструктура",
+          "Бизнес и стартапы",
+          "E-commerce",
+          "Медиа и журналистика",
+          "Боевые искусства (ТСБ)",
+          "Программирование",
+          "Медицина и уход",
+          "Автоматизация"
+        ]
+      }
+    },
+    {
+      "id": "concept_текст",
+      "label": "текст",
+      "archetype": "ASCO",
+      "weight": 0.7,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 14,
+        "themes": [
+          "Социальное право",
+          "Математика и гармония",
+          "ИИ и нейросети",
+          "Разное",
+          "Программирование"
+        ]
+      }
+    },
+    {
+      "id": "concept_нейросети",
+      "label": "нейросети",
+      "archetype": "ASCO",
+      "weight": 0.65,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 13,
+        "themes": [
+          "Социальное право",
+          "ИИ и нейросети",
+          "Дроны и БПЛА",
+          "Разное"
+        ]
+      }
+    },
+    {
+      "id": "concept_какие",
+      "label": "какие",
+      "archetype": "ASCO",
+      "weight": 0.65,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 13,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "Разное",
+          "Медиа и журналистика",
+          "Программирование",
+          "Медицина и уход",
+          "Дроны и БПЛА"
+        ]
+      }
+    },
+    {
+      "id": "concept_описание",
+      "label": "описание",
+      "archetype": "ASCO",
+      "weight": 0.65,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 13,
+        "themes": [
+          "Социальное право",
+          "Дроны и БПЛА",
+          "Программирование",
+          "Разное"
+        ]
+      }
+    },
+    {
+      "id": "concept_eine",
+      "label": "eine",
+      "archetype": "ASCO",
+      "weight": 0.65,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 13,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "ИИ и нейросети",
+          "Разное",
+          "Медицина и уход"
+        ]
+      }
+    },
+    {
+      "id": "concept_video",
+      "label": "video",
+      "archetype": "ASCO",
+      "weight": 0.6,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 12,
+        "themes": [
+          "Разное",
+          "Дроны и БПЛА",
+          "Медиа и журналистика"
+        ]
+      }
+    },
+    {
+      "id": "concept_html",
+      "label": "html",
+      "archetype": "ASCO",
+      "weight": 0.6,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 12,
+        "themes": [
+          "ИИ и нейросети",
+          "Программирование",
+          "Разное"
+        ]
+      }
+    },
+    {
+      "id": "concept_много",
+      "label": "много",
+      "archetype": "ASCO",
+      "weight": 0.55,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 11,
+        "themes": [
+          "Робототехника",
+          "Математика и гармония",
+          "Разное",
+          "Медиа и журналистика",
+          "Программирование",
+          "Медицина и уход"
+        ]
+      }
+    },
+    {
+      "id": "concept_файл",
+      "label": "файл",
+      "archetype": "ASCO",
+      "weight": 0.55,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 11,
+        "themes": [
+          "ИИ и нейросети",
+          "Разное",
+          "Программирование",
+          "Робототехника"
+        ]
+      }
+    },
+    {
+      "id": "concept_хочешь",
+      "label": "хочешь",
+      "archetype": "ASCO",
+      "weight": 0.55,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 11,
+        "themes": [
+          "Математика и гармония",
+          "ИИ и нейросети",
+          "Бизнес и стартапы",
+          "Разное",
+          "Программирование",
+          "Дроны и БПЛА"
+        ]
+      }
+    },
+    {
+      "id": "concept_dresden",
+      "label": "dresden",
+      "archetype": "ASCO",
+      "weight": 0.55,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 11,
+        "themes": [
+          "Социальное право",
+          "Автоматизация",
+          "ИИ и нейросети",
+          "Разное"
+        ]
+      }
+    },
+    {
+      "id": "concept_проект",
+      "label": "проект",
+      "archetype": "ASCO",
+      "weight": 0.55,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 11,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "Математика и гармония",
+          "ИИ и нейросети",
+          "Разное",
+          "Дроны и БПЛА"
+        ]
+      }
+    },
+    {
+      "id": "concept_уровень",
+      "label": "уровень",
+      "archetype": "ASCO",
+      "weight": 0.55,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 11,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "Математика и гармония",
+          "ИИ и нейросети",
+          "Бизнес и стартапы",
+          "Разное"
+        ]
+      }
+    },
+    {
+      "id": "concept_система",
+      "label": "система",
+      "archetype": "ASCO",
+      "weight": 0.55,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 11,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "ИИ и нейросети",
+          "Боевые искусства (ТСБ)",
+          "Разное",
+          "Программирование"
+        ]
+      }
+    },
+    {
+      "id": "concept_unterst",
+      "label": "unterst",
+      "archetype": "ASCO",
+      "weight": 0.55,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 11,
+        "themes": [
+          "Социальное право",
+          "Разное"
+        ]
+      }
+    },
+    {
+      "id": "concept_telegram",
+      "label": "telegram",
+      "archetype": "ASCO",
+      "weight": 0.5,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 10,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "E-commerce",
+          "Разное",
+          "Медиа и журналистика",
+          "Автоматизация"
+        ]
+      }
+    },
+    {
+      "id": "concept_информации",
+      "label": "информации",
+      "archetype": "ASCO",
+      "weight": 0.5,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 10,
+        "themes": [
+          "Социальное право",
+          "Математика и гармония",
+          "ИИ и нейросети",
+          "Разное",
+          "Медиа и журналистика",
+          "Дроны и БПЛА"
+        ]
+      }
+    },
+    {
+      "id": "concept_роботы",
+      "label": "роботы",
+      "archetype": "ASCO",
+      "weight": 0.5,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 10,
+        "themes": [
+          "ИИ и нейросети",
+          "Дроны и БПЛА",
+          "Робототехника"
+        ]
+      }
+    },
+    {
+      "id": "concept_внутри",
+      "label": "внутри",
+      "archetype": "ASCO",
+      "weight": 0.5,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 10,
+        "themes": [
+          "Робототехника",
+          "Философия и духовность",
+          "ИИ и нейросети",
+          "E-commerce",
+          "Разное",
+          "Автоматизация"
+        ]
+      }
+    },
+    {
+      "id": "concept_социальная",
+      "label": "социальная",
+      "archetype": "ASCO",
+      "weight": 0.5,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 10,
+        "themes": [
+          "Социальное право",
+          "ИИ и нейросети",
+          "Бизнес и стартапы",
+          "Медицина и уход"
+        ]
+      }
+    },
+    {
+      "id": "concept_доступ",
+      "label": "доступ",
+      "archetype": "ASCO",
+      "weight": 0.45,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 9,
+        "themes": [
+          "Социальное право",
+          "ИИ и нейросети",
+          "Разное",
+          "Программирование",
+          "Медицина и уход"
+        ]
+      }
+    },
+    {
+      "id": "concept_данные",
+      "label": "данные",
+      "archetype": "ASCO",
+      "weight": 0.45,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 9,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "E-commerce",
+          "Разное",
+          "Программирование",
+          "Дроны и БПЛА"
+        ]
+      }
+    },
+    {
+      "id": "concept_file",
+      "label": "file",
+      "archetype": "ASCO",
+      "weight": 0.45,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 9,
+        "themes": [
+          "Социальное право",
+          "Программирование",
+          "Разное"
+        ]
+      }
+    },
+    {
+      "id": "concept_список",
+      "label": "список",
+      "archetype": "ASCO",
+      "weight": 0.45,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 9,
+        "themes": [
+          "Социальное право",
+          "Боевые искусства (ТСБ)",
+          "Медиа и журналистика",
+          "Программирование",
+          "Автоматизация",
+          "Дроны и БПЛА"
+        ]
+      }
+    },
+    {
+      "id": "concept_тестовые",
+      "label": "тестовые",
+      "archetype": "ASCO",
+      "weight": 0.45,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 9,
+        "themes": [
+          "E-commerce",
+          "Программирование",
+          "Разное"
+        ]
+      }
+    },
+    {
+      "id": "concept_сюда",
+      "label": "сюда",
+      "archetype": "ASCO",
+      "weight": 0.45,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 9,
+        "themes": [
+          "ИИ и нейросети",
+          "Разное"
+        ]
+      }
+    },
+    {
+      "id": "concept_сообщения",
+      "label": "сообщения",
+      "archetype": "ASCO",
+      "weight": 0.45,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 9,
+        "themes": [
+          "Математика и гармония",
+          "ИИ и нейросети"
+        ]
+      }
+    },
+    {
+      "id": "concept_могут",
+      "label": "могут",
+      "archetype": "ASCO",
+      "weight": 0.45,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 9,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "ИИ и нейросети",
+          "Медицина и уход",
+          "Дроны и БПЛА"
+        ]
+      }
+    },
+    {
+      "id": "concept_социального",
+      "label": "социального",
+      "archetype": "ASCO",
+      "weight": 0.45,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 9,
+        "themes": [
+          "Социальное право",
+          "ИИ и нейросети"
+        ]
+      }
+    },
+    {
+      "id": "concept_примеры",
+      "label": "примеры",
+      "archetype": "ASCO",
+      "weight": 0.45,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 9,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "ИИ и нейросети",
+          "Бизнес и стартапы",
+          "Разное"
+        ]
+      }
+    },
+    {
+      "id": "concept_людей",
+      "label": "людей",
+      "archetype": "ASCO",
+      "weight": 0.45,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 9,
+        "themes": [
+          "Социальное право",
+          "Разное"
+        ]
+      }
+    },
+    {
+      "id": "concept_услуги",
+      "label": "услуги",
+      "archetype": "ASCO",
+      "weight": 0.45,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 9,
+        "themes": [
+          "Социальное право",
+          "Медицина и уход"
+        ]
+      }
+    },
+    {
+      "id": "concept_информация",
+      "label": "информация",
+      "archetype": "ASCO",
+      "weight": 0.4,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 8,
+        "themes": [
+          "Социальное право",
+          "Математика и гармония",
+          "ИИ и нейросети",
+          "Разное",
+          "Медиа и журналистика",
+          "Дроны и БПЛА"
+        ]
+      }
+    },
+    {
+      "id": "concept_вопрос",
+      "label": "вопрос",
+      "archetype": "ASCO",
+      "weight": 0.4,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 8,
+        "themes": [
+          "Робототехника",
+          "Философия и духовность",
+          "ИИ и нейросети",
+          "Бизнес и стартапы",
+          "Разное",
+          "Медицина и уход"
+        ]
+      }
+    },
+    {
+      "id": "concept_один",
+      "label": "один",
+      "archetype": "ASCO",
+      "weight": 0.4,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 8,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "Разное"
+        ]
+      }
+    },
+    {
+      "id": "concept_чата",
+      "label": "чата",
+      "archetype": "ASCO",
+      "weight": 0.4,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 8,
+        "themes": [
+          "Автоматизация",
+          "ИИ и нейросети",
+          "Математика и гармония",
+          "Разное"
+        ]
+      }
+    },
+    {
+      "id": "concept_сделать",
+      "label": "сделать",
+      "archetype": "ASCO",
+      "weight": 0.4,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 8,
+        "themes": [
+          "Робототехника",
+          "ИИ и нейросети",
+          "Бизнес и стартапы",
+          "Разное",
+          "Медиа и журналистика",
+          "Программирование"
+        ]
+      }
+    },
+    {
+      "id": "concept_link",
+      "label": "link",
+      "archetype": "ASCO",
+      "weight": 0.4,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 8,
+        "themes": [
+          "ИИ и нейросети",
+          "Медиа и журналистика",
+          "Разное"
+        ]
+      }
+    },
+    {
+      "id": "concept_группы",
+      "label": "группы",
+      "archetype": "ASCO",
+      "weight": 0.4,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 8,
+        "themes": [
+          "Социальное право",
+          "ИИ и нейросети",
+          "Дроны и БПЛА",
+          "Разное"
+        ]
+      }
+    },
+    {
+      "id": "concept_жизни",
+      "label": "жизни",
+      "archetype": "ASCO",
+      "weight": 0.4,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 8,
+        "themes": [
+          "Социальное право",
+          "Математика и гармония",
+          "ИИ и нейросети",
+          "Боевые искусства (ТСБ)"
+        ]
+      }
+    },
+    {
+      "id": "concept_программы",
+      "label": "программы",
+      "archetype": "ASCO",
+      "weight": 0.4,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 8,
+        "themes": [
+          "Робототехника",
+          "ИИ и нейросети",
+          "Разное",
+          "Виртуальный офис",
+          "Программирование",
+          "Медицина и уход"
+        ]
+      }
+    },
+    {
+      "id": "concept_задач",
+      "label": "задач",
+      "archetype": "ASCO",
+      "weight": 0.4,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 8,
+        "themes": [
+          "Автоматизация",
+          "ИИ и нейросети"
+        ]
+      }
+    },
+    {
+      "id": "concept_pflegegrad",
+      "label": "pflegegrad",
+      "archetype": "ASCO",
+      "weight": 0.4,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 8,
+        "themes": [
+          "Социальное право",
+          "Медицина и уход"
+        ]
+      }
+    },
+    {
+      "id": "concept_your",
+      "label": "your",
+      "archetype": "ASCO",
+      "weight": 0.35,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 7,
+        "themes": [
+          "Автоматизация",
+          "ИИ и нейросети",
+          "Программирование"
+        ]
+      }
+    },
+    {
+      "id": "concept_drive",
+      "label": "drive",
+      "archetype": "ASCO",
+      "weight": 0.35,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 7,
+        "themes": [
+          "Социальное право",
+          "ИИ и нейросети",
+          "Разное"
+        ]
+      }
+    },
+    {
+      "id": "concept_сейчас",
+      "label": "сейчас",
+      "archetype": "ASCO",
+      "weight": 0.35,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 7,
+        "themes": [
+          "Социальное право",
+          "Математика и гармония",
+          "ИИ и нейросети",
+          "Разное",
+          "Медицина и уход"
+        ]
+      }
+    },
+    {
+      "id": "concept_помочь",
+      "label": "помочь",
+      "archetype": "ASCO",
+      "weight": 0.35,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 7,
+        "themes": [
+          "Робототехника",
+          "ИИ и нейросети",
+          "Программирование",
+          "Разное"
+        ]
+      }
+    },
+    {
+      "id": "concept_приложения",
+      "label": "приложения",
+      "archetype": "ASCO",
+      "weight": 0.35,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 7,
+        "themes": [
+          "Робототехника",
+          "ИИ и нейросети",
+          "E-commerce",
+          "Медиа и журналистика",
+          "Программирование"
+        ]
+      }
+    },
+    {
+      "id": "concept_like",
+      "label": "like",
+      "archetype": "ASCO",
+      "weight": 0.35,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 7,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "ИИ и нейросети",
+          "Разное",
+          "Дроны и БПЛА"
+        ]
+      }
+    },
+    {
+      "id": "concept_интернет",
+      "label": "интернет",
+      "archetype": "ASCO",
+      "weight": 0.35,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 7,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "Программирование",
+          "Разное"
+        ]
+      }
+    },
+    {
+      "id": "concept_несколько",
+      "label": "несколько",
+      "archetype": "ASCO",
+      "weight": 0.35,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 7,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "E-commerce",
+          "Виртуальный офис",
+          "Медицина и уход",
+          "Дроны и БПЛА"
+        ]
+      }
+    },
+    {
+      "id": "concept_игры",
+      "label": "игры",
+      "archetype": "ASCO",
+      "weight": 0.35,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 7,
+        "themes": [
+          "Социальное право",
+          "Робототехника",
+          "ИИ и нейросети",
+          "Разное",
+          "Медицина и уход"
+        ]
+      }
+    },
+    {
+      "id": "concept_системы",
+      "label": "системы",
+      "archetype": "ASCO",
+      "weight": 0.35,
+      "embedding": [],
+      "metadata": {
+        "type": "concept",
+        "frequency": 7,
+        "themes": [
+          "Робототехника",
+          "Математика и гармония",
+          "ИИ и нейросети",
+          "Боевые искусства (ТСБ)",
+          "Программирование"
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "conv_1",
+      "target": "theme_медицина_и_уход",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_2",
+      "target": "theme_медицина_и_уход",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_5",
+      "target": "theme_ии_и_нейросети",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_10",
+      "target": "theme_ии_и_нейросети",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_12",
+      "target": "theme_ии_и_нейросети",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_22",
+      "target": "theme_социальное_право",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_42",
+      "target": "theme_разное",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_63",
+      "target": "theme_социальное_право",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_64",
+      "target": "theme_разное",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_82",
+      "target": "theme_философия_и_духовность",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_105",
+      "target": "theme_ии_и_нейросети",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_132",
+      "target": "theme_программирование",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_133",
+      "target": "theme_программирование",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_184",
+      "target": "theme_социальное_право",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_186",
+      "target": "theme_бизнес_и_стартапы",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_219",
+      "target": "theme_философия_и_духовность",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_227",
+      "target": "theme_разное",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_228",
+      "target": "theme_социальное_право",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_237",
+      "target": "theme_медиа_и_журналистика",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_255",
+      "target": "theme_ии_и_нейросети",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_280",
+      "target": "theme_программирование",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_283",
+      "target": "theme_программирование",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_300",
+      "target": "theme_разное",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_317",
+      "target": "theme_разное",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_326",
+      "target": "theme_медиа_и_журналистика",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_328",
+      "target": "theme_социальное_право",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_331",
+      "target": "theme_разное",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_336",
+      "target": "theme_робототехника",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_338",
+      "target": "theme_математика_и_гармония",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_339",
+      "target": "theme_математика_и_гармония",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_340",
+      "target": "theme_математика_и_гармония",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_347",
+      "target": "theme_медицина_и_уход",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_351",
+      "target": "theme_математика_и_гармония",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_354",
+      "target": "theme_разное",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_356",
+      "target": "theme_социальное_право",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_367",
+      "target": "theme_социальное_право",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_371",
+      "target": "theme_социальное_право",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_376",
+      "target": "theme_социальное_право",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_381",
+      "target": "theme_социальное_право",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_404",
+      "target": "theme_разное",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_416",
+      "target": "theme_медиа_и_журналистика",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_426",
+      "target": "theme_социальное_право",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_458",
+      "target": "theme_программирование",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_470",
+      "target": "theme_робототехника",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_484",
+      "target": "theme_ии_и_нейросети",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_492",
+      "target": "theme_бизнес_и_стартапы",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_517",
+      "target": "theme_разное",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_522",
+      "target": "theme_разное",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_529",
+      "target": "theme_медицина_и_уход",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_570",
+      "target": "theme_дроны_и_бпла",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_586",
+      "target": "theme_дроны_и_бпла",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_587",
+      "target": "theme_робототехника",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_609",
+      "target": "theme_разное",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_618",
+      "target": "theme_социальное_право",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_631",
+      "target": "theme_серверы_и_инфраструктура",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_642",
+      "target": "theme_дроны_и_бпла",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_665",
+      "target": "theme_дроны_и_бпла",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_679",
+      "target": "theme_разное",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_701",
+      "target": "theme_ии_и_нейросети",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_703",
+      "target": "theme_медиа_и_журналистика",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_711",
+      "target": "theme_автоматизация",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_713",
+      "target": "theme_программирование",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_722",
+      "target": "theme_медиа_и_журналистика",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_732",
+      "target": "theme_ии_и_нейросети",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_741",
+      "target": "theme_робототехника",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_746",
+      "target": "theme_дроны_и_бпла",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_747",
+      "target": "theme_серверы_и_инфраструктура",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_762",
+      "target": "theme_программирование",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_768",
+      "target": "theme_философия_и_духовность",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_769",
+      "target": "theme_медиа_и_журналистика",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_794",
+      "target": "theme_дроны_и_бпла",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_795",
+      "target": "theme_дроны_и_бпла",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_803",
+      "target": "theme_математика_и_гармония",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_816",
+      "target": "theme_медиа_и_журналистика",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_823",
+      "target": "theme_программирование",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_824",
+      "target": "theme_программирование",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_827",
+      "target": "theme_программирование",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_834",
+      "target": "theme_социальное_право",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_892",
+      "target": "theme_социальное_право",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_894",
+      "target": "theme_социальное_право",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_934",
+      "target": "theme_социальное_право",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_985",
+      "target": "theme_социальное_право",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_999",
+      "target": "theme_социальное_право",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_1001",
+      "target": "theme_социальное_право",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_1037",
+      "target": "theme_медиа_и_журналистика",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_1040",
+      "target": "theme_разное",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_1041",
+      "target": "theme_разное",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_1045",
+      "target": "theme_бизнес_и_стартапы",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_1049",
+      "target": "theme_робототехника",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_1055",
+      "target": "theme_ии_и_нейросети",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_1056",
+      "target": "theme_ии_и_нейросети",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_1061",
+      "target": "theme_разное",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_1077",
+      "target": "theme_разное",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_1080",
+      "target": "theme_программирование",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_1085",
+      "target": "theme_философия_и_духовность",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_1088",
+      "target": "theme_разное",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_1090",
+      "target": "theme_разное",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_1094",
+      "target": "theme_робототехника",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_1095",
+      "target": "theme_разное",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "conv_1101",
+      "target": "theme_разное",
+      "label": "принадлежит теме",
+      "weight": 0.8,
+      "directed": true
+    },
+    {
+      "source": "concept_quot",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_quot",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_quot",
+      "target": "theme_философия_и_духовность",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_quot",
+      "target": "theme_математика_и_гармония",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_quot",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_quot",
+      "target": "theme_транспорт_и_мобильность",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_quot",
+      "target": "theme_бизнес_и_стартапы",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_quot",
+      "target": "theme_e-commerce",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_quot",
+      "target": "theme_боевые_искусства_(тсб)",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_quot",
+      "target": "theme_медиа_и_журналистика",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_quot",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_quot",
+      "target": "theme_виртуальный_офис",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_quot",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_quot",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_quot",
+      "target": "theme_автоматизация",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_quot",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_turn",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_turn",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_turn",
+      "target": "theme_философия_и_духовность",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_turn",
+      "target": "theme_математика_и_гармония",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_turn",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_turn",
+      "target": "theme_серверы_и_инфраструктура",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_turn",
+      "target": "theme_бизнес_и_стартапы",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_turn",
+      "target": "theme_транспорт_и_мобильность",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_turn",
+      "target": "theme_e-commerce",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_turn",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_turn",
+      "target": "theme_медиа_и_журналистика",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_turn",
+      "target": "theme_боевые_искусства_(тсб)",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_turn",
+      "target": "theme_виртуальный_офис",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_turn",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_turn",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_turn",
+      "target": "theme_автоматизация",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_turn",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_cite",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_cite",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_cite",
+      "target": "theme_математика_и_гармония",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_cite",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_cite",
+      "target": "theme_серверы_и_инфраструктура",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_cite",
+      "target": "theme_бизнес_и_стартапы",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_cite",
+      "target": "theme_транспорт_и_мобильность",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_cite",
+      "target": "theme_e-commerce",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_cite",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_cite",
+      "target": "theme_медиа_и_журналистика",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_cite",
+      "target": "theme_виртуальный_офис",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_cite",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_cite",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_cite",
+      "target": "theme_автоматизация",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_cite",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_search",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_search",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_search",
+      "target": "theme_математика_и_гармония",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_search",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_search",
+      "target": "theme_серверы_и_инфраструктура",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_search",
+      "target": "theme_бизнес_и_стартапы",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_search",
+      "target": "theme_транспорт_и_мобильность",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_search",
+      "target": "theme_e-commerce",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_search",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_search",
+      "target": "theme_медиа_и_журналистика",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_search",
+      "target": "theme_виртуальный_офис",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_search",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_search",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_search",
+      "target": "theme_автоматизация",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_search",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_например",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_например",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_например",
+      "target": "theme_математика_и_гармония",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_например",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_например",
+      "target": "theme_транспорт_и_мобильность",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_например",
+      "target": "theme_бизнес_и_стартапы",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_например",
+      "target": "theme_e-commerce",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_например",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_например",
+      "target": "theme_медиа_и_журналистика",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_например",
+      "target": "theme_виртуальный_офис",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_например",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_например",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_например",
+      "target": "theme_автоматизация",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_например",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_германии",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_германии",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_германии",
+      "target": "theme_боевые_искусства_(тсб)",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_германии",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_германии",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_германии",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_https",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_https",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_https",
+      "target": "theme_философия_и_духовность",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_https",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_https",
+      "target": "theme_бизнес_и_стартапы",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_https",
+      "target": "theme_медиа_и_журналистика",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_https",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_https",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_https",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_https",
+      "target": "theme_автоматизация",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_https",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_youtube",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_youtube",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_youtube",
+      "target": "theme_медиа_и_журналистика",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_youtube",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_youtube",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_youtube",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_помощь",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_помощь",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_помощь",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_видео",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_видео",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_видео",
+      "target": "theme_медиа_и_журналистика",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_image",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_image",
+      "target": "theme_философия_и_духовность",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_image",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_image",
+      "target": "theme_медиа_и_журналистика",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_image",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_image",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_image",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_image",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_github",
+      "target": "theme_автоматизация",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_github",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_github",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_github",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_данных",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_данных",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_данных",
+      "target": "theme_математика_и_гармония",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_данных",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_данных",
+      "target": "theme_серверы_и_инфраструктура",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_данных",
+      "target": "theme_бизнес_и_стартапы",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_данных",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_данных",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_данных",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_данных",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_chatgpt",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_chatgpt",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_chatgpt",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_чтобы",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_чтобы",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_чтобы",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_чтобы",
+      "target": "theme_боевые_искусства_(тсб)",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_чтобы",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_чтобы",
+      "target": "theme_медиа_и_журналистика",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_чтобы",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_чтобы",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_view",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_view",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_view",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_view",
+      "target": "theme_бизнес_и_стартапы",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_view",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_view",
+      "target": "theme_медиа_и_журналистика",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_view",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_view",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_view",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_дронов",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_дронов",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_google",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_google",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_google",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_google",
+      "target": "theme_e-commerce",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_google",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_google",
+      "target": "theme_медиа_и_журналистика",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_google",
+      "target": "theme_виртуальный_офис",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_google",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_google",
+      "target": "theme_автоматизация",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_проекты",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_проекты",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_проекты",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_проекты",
+      "target": "theme_бизнес_и_стартапы",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_проекты",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_проекты",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_проекты",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_make",
+      "target": "theme_автоматизация",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_make",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_make",
+      "target": "theme_e-commerce",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_make",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_анализ",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_анализ",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_анализ",
+      "target": "theme_философия_и_духовность",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_анализ",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_анализ",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_анализ",
+      "target": "theme_медиа_и_журналистика",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_анализ",
+      "target": "theme_боевые_искусства_(тсб)",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_анализ",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_могу",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_могу",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_могу",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_могу",
+      "target": "theme_медиа_и_журналистика",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_могу",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_могу",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_могу",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_такое",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_такое",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_такое",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_такое",
+      "target": "theme_бизнес_и_стартапы",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_такое",
+      "target": "theme_медиа_и_журналистика",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_такое",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_такое",
+      "target": "theme_боевые_искусства_(тсб)",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_такое",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_oder",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_oder",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_oder",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_перевод",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_перевод",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_перевод",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_перевод",
+      "target": "theme_медиа_и_журналистика",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_перевод",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_перевод",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_перевод",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_дроны",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_дроны",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_дроны",
+      "target": "theme_медиа_и_журналистика",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_через",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_через",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_через",
+      "target": "theme_серверы_и_инфраструктура",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_через",
+      "target": "theme_бизнес_и_стартапы",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_через",
+      "target": "theme_e-commerce",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_через",
+      "target": "theme_медиа_и_журналистика",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_через",
+      "target": "theme_боевые_искусства_(тсб)",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_через",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_через",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_через",
+      "target": "theme_автоматизация",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_текст",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_текст",
+      "target": "theme_математика_и_гармония",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_текст",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_текст",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_текст",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_нейросети",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_нейросети",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_нейросети",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_нейросети",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_какие",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_какие",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_какие",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_какие",
+      "target": "theme_медиа_и_журналистика",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_какие",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_какие",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_какие",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_описание",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_описание",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_описание",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_описание",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_eine",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_eine",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_eine",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_eine",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_eine",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_video",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_video",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_video",
+      "target": "theme_медиа_и_журналистика",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_html",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_html",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_html",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_много",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_много",
+      "target": "theme_математика_и_гармония",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_много",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_много",
+      "target": "theme_медиа_и_журналистика",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_много",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_много",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_файл",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_файл",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_файл",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_файл",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_хочешь",
+      "target": "theme_математика_и_гармония",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_хочешь",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_хочешь",
+      "target": "theme_бизнес_и_стартапы",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_хочешь",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_хочешь",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_хочешь",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_dresden",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_dresden",
+      "target": "theme_автоматизация",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_dresden",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_dresden",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_проект",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_проект",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_проект",
+      "target": "theme_математика_и_гармония",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_проект",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_проект",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_проект",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_уровень",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_уровень",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_уровень",
+      "target": "theme_математика_и_гармония",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_уровень",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_уровень",
+      "target": "theme_бизнес_и_стартапы",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_уровень",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_система",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_система",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_система",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_система",
+      "target": "theme_боевые_искусства_(тсб)",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_система",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_система",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_unterst",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_unterst",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_telegram",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_telegram",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_telegram",
+      "target": "theme_e-commerce",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_telegram",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_telegram",
+      "target": "theme_медиа_и_журналистика",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_telegram",
+      "target": "theme_автоматизация",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_информации",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_информации",
+      "target": "theme_математика_и_гармония",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_информации",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_информации",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_информации",
+      "target": "theme_медиа_и_журналистика",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_информации",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_роботы",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_роботы",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_роботы",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_внутри",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_внутри",
+      "target": "theme_философия_и_духовность",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_внутри",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_внутри",
+      "target": "theme_e-commerce",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_внутри",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_внутри",
+      "target": "theme_автоматизация",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_социальная",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_социальная",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_социальная",
+      "target": "theme_бизнес_и_стартапы",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_социальная",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_доступ",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_доступ",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_доступ",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_доступ",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_доступ",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_данные",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_данные",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_данные",
+      "target": "theme_e-commerce",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_данные",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_данные",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_данные",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_file",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_file",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_file",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_список",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_список",
+      "target": "theme_боевые_искусства_(тсб)",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_список",
+      "target": "theme_медиа_и_журналистика",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_список",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_список",
+      "target": "theme_автоматизация",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_список",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_тестовые",
+      "target": "theme_e-commerce",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_тестовые",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_тестовые",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_сюда",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_сюда",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_сообщения",
+      "target": "theme_математика_и_гармония",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_сообщения",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_могут",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_могут",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_могут",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_могут",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_могут",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_социального",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_социального",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_примеры",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_примеры",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_примеры",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_примеры",
+      "target": "theme_бизнес_и_стартапы",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_примеры",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_людей",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_людей",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_услуги",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_услуги",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_информация",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_информация",
+      "target": "theme_математика_и_гармония",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_информация",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_информация",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_информация",
+      "target": "theme_медиа_и_журналистика",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_информация",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_вопрос",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_вопрос",
+      "target": "theme_философия_и_духовность",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_вопрос",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_вопрос",
+      "target": "theme_бизнес_и_стартапы",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_вопрос",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_вопрос",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_один",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_один",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_один",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_чата",
+      "target": "theme_автоматизация",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_чата",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_чата",
+      "target": "theme_математика_и_гармония",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_чата",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_сделать",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_сделать",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_сделать",
+      "target": "theme_бизнес_и_стартапы",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_сделать",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_сделать",
+      "target": "theme_медиа_и_журналистика",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_сделать",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_link",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_link",
+      "target": "theme_медиа_и_журналистика",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_link",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_группы",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_группы",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_группы",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_группы",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_жизни",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_жизни",
+      "target": "theme_математика_и_гармония",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_жизни",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_жизни",
+      "target": "theme_боевые_искусства_(тсб)",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_программы",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_программы",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_программы",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_программы",
+      "target": "theme_виртуальный_офис",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_программы",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_программы",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_задач",
+      "target": "theme_автоматизация",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_задач",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_pflegegrad",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_pflegegrad",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_your",
+      "target": "theme_автоматизация",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_your",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_your",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_drive",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_drive",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_drive",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_сейчас",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_сейчас",
+      "target": "theme_математика_и_гармония",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_сейчас",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_сейчас",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_сейчас",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_помочь",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_помочь",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_помочь",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_помочь",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_приложения",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_приложения",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_приложения",
+      "target": "theme_e-commerce",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_приложения",
+      "target": "theme_медиа_и_журналистика",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_приложения",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_like",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_like",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_like",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_like",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_like",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_интернет",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_интернет",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_интернет",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_интернет",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_несколько",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_несколько",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_несколько",
+      "target": "theme_e-commerce",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_несколько",
+      "target": "theme_виртуальный_офис",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_несколько",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_несколько",
+      "target": "theme_дроны_и_бпла",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_игры",
+      "target": "theme_социальное_право",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_игры",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_игры",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_игры",
+      "target": "theme_разное",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_игры",
+      "target": "theme_медицина_и_уход",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_системы",
+      "target": "theme_робототехника",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_системы",
+      "target": "theme_математика_и_гармония",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_системы",
+      "target": "theme_ии_и_нейросети",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_системы",
+      "target": "theme_боевые_искусства_(тсб)",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "concept_системы",
+      "target": "theme_программирование",
+      "label": "встречается в",
+      "weight": 0.5,
+      "directed": true
+    },
+    {
+      "source": "theme_разное",
+      "target": "theme_социальное_право",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    },
+    {
+      "source": "theme_ии_и_нейросети",
+      "target": "theme_разное",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    },
+    {
+      "source": "theme_ии_и_нейросети",
+      "target": "theme_социальное_право",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    },
+    {
+      "source": "theme_разное",
+      "target": "theme_робототехника",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    },
+    {
+      "source": "theme_ии_и_нейросети",
+      "target": "theme_робототехника",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    },
+    {
+      "source": "theme_медицина_и_уход",
+      "target": "theme_социальное_право",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    },
+    {
+      "source": "theme_программирование",
+      "target": "theme_разное",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    },
+    {
+      "source": "theme_ии_и_нейросети",
+      "target": "theme_программирование",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    },
+    {
+      "source": "theme_робототехника",
+      "target": "theme_социальное_право",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    },
+    {
+      "source": "theme_медицина_и_уход",
+      "target": "theme_разное",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    },
+    {
+      "source": "theme_программирование",
+      "target": "theme_робототехника",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    },
+    {
+      "source": "theme_дроны_и_бпла",
+      "target": "theme_разное",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    },
+    {
+      "source": "theme_ии_и_нейросети",
+      "target": "theme_медицина_и_уход",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    },
+    {
+      "source": "theme_программирование",
+      "target": "theme_социальное_право",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    },
+    {
+      "source": "theme_дроны_и_бпла",
+      "target": "theme_социальное_право",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    },
+    {
+      "source": "theme_дроны_и_бпла",
+      "target": "theme_ии_и_нейросети",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    },
+    {
+      "source": "theme_медиа_и_журналистика",
+      "target": "theme_разное",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    },
+    {
+      "source": "theme_ии_и_нейросети",
+      "target": "theme_медиа_и_журналистика",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    },
+    {
+      "source": "theme_дроны_и_бпла",
+      "target": "theme_робототехника",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    },
+    {
+      "source": "theme_медицина_и_уход",
+      "target": "theme_робототехника",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    },
+    {
+      "source": "theme_медиа_и_журналистика",
+      "target": "theme_робототехника",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    },
+    {
+      "source": "theme_медиа_и_журналистика",
+      "target": "theme_программирование",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    },
+    {
+      "source": "theme_медиа_и_журналистика",
+      "target": "theme_социальное_право",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    },
+    {
+      "source": "theme_дроны_и_бпла",
+      "target": "theme_медиа_и_журналистика",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    },
+    {
+      "source": "theme_дроны_и_бпла",
+      "target": "theme_медицина_и_уход",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    },
+    {
+      "source": "theme_дроны_и_бпла",
+      "target": "theme_программирование",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    },
+    {
+      "source": "theme_медицина_и_уход",
+      "target": "theme_программирование",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    },
+    {
+      "source": "theme_медиа_и_журналистика",
+      "target": "theme_медицина_и_уход",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    },
+    {
+      "source": "theme_бизнес_и_стартапы",
+      "target": "theme_ии_и_нейросети",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    },
+    {
+      "source": "theme_бизнес_и_стартапы",
+      "target": "theme_социальное_право",
+      "label": "связана через концепции",
+      "weight": 0.9,
+      "directed": false
+    }
+  ]
+}

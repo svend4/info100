@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-04-17T21:41:33.523219",
+  "total_skills": 1,
+  "passed": 1,
+  "failed": 0,
+  "needs_work": 0,
+  "results": [
+    {
+      "skill_name": "test-agent-v1",
+      "skill_id": "test-agent-v1-830d0d6b",
+      "tested_at": "2026-04-17T21:41:33.490191",
+      "syntax": {
+        "passed": true,
+        "message": "Syntax OK"
+      },
+      "import": {
+        "passed": true,
+        "message": "Import OK"
+      },
+      "functional": {
+        "passed": "default",
+        "message": "Functional OK (status=processed)",
+        "time_ms": 1.3
+      },
+      "fitness_score": 1.0
+    }
+  ]
+}
