@@ -1,11 +1,72 @@
-name: info1-evolution-trigger
+name: 🤖 Full Evolution Cycle (Variant C)
 on:
   workflow_dispatch:
+    inputs:
+      create_report:
+        description: 'Create GitHub Issue report'
+        required: false
+        default: true
+        type: boolean
   schedule:
-    - cron: '0 4 * * *'
+    - cron: '0 4 * * *'  # Ежедневно в 4:00 UTC
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
-  evolve:
+  # ==========================================
+  # STAGE 1: INGEST (Сбор данных)
+  # ==========================================
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install PyGithub  # Для работы с Issues
+      
+      - name: 🔍 Collect info1
+        run: |
+          echo "🚀 Collecting svend4/info1..."
+          python3 pipelines/ingest/info1-collector.py
+          echo "✅ info1 collected"
+      
+      - name: 🔍 Collect data70
+        run: |
+          echo "🚀 Collecting svend4/data70..."
+          python3 pipelines/ingest/data70-collector.py
+          echo "✅ data70 collected"
+      
+      - name: 📊 Stage 1 Summary
+        run: |
+          echo "=== Raw Knowledge Stats ==="
+          echo "info1: $(find knowledge/raw/info1 -type f 2>/dev/null | wc -l) files"
+          echo "data70: $(find knowledge/raw/data70 -type f 2>/dev/null | wc -l) files"
+          echo "graph: $(cat knowledge/graph/concepts.json 2>/dev/null | grep -c '"id"' || echo 0) nodes"
+      
+      - name: 💾 Commit collected data [auto-collect]
+        run: |
+          git config user.name "Evolution Bot"
+          git config user.email "evolution@info100.local"
+          git add knowledge/raw/ knowledge/graph/
+          git diff --cached --quiet || git commit -m "🤖 [auto-collect] $(date +%Y-%m-%d) — info1 + data70"
+          git push
+
+  # ==========================================
+  # STAGE 2: SYNTHESIZE (Генерация скиллов)
+  # ==========================================
+  synthesize:
+    needs: collect
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -14,20 +75,117 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
       
-      - name: Install deps
+      - name: Install dependencies
         run: pip install -r requirements.txt
       
-      - name: Run collectors
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: 🧬 Synthesize skills from methodologies
         run: |
-          python3 pipelines/ingest/info1-collector.py
+          echo "🧬 Generating skills..."
+          
+          # Скилл из parallel-bidirectional
+          python3 pipelines/synthesize/skill-synthesizer.py \
+            parallel-bidirectional \
+            parallel-agent-$(date +%Y%m%d) \
+            "Auto-generated parallel bidirectional agent"
+          
+          # Можно добавить больше генераций
+          echo "✅ Skills generated"
       
-      - name: Commit results
+      - name: 📊 Stage 2 Summary
+        run: |
+          echo "=== Generated Skills ==="
+          ls -la skills/generated/ 2>/dev/null || echo "No generated skills"
+          echo "Evolution log:"
+          cat meta/evolution-log/*.jsonl 2>/dev/null | tail -5 || echo "No events"
+      
+      - name: 💾 Commit generated skills [auto-synthesize]
         run: |
           git config user.name "Evolution Bot"
           git config user.email "evolution@info100.local"
-          git add knowledge/raw/
-          git diff --cached --quiet || git commit -m "🤖 Auto-collect: $(date +%Y-%m-%d)"
+          git add skills/generated/ meta/evolution-log/
+          git diff --cached --quiet || git commit -m "🧬 [auto-synthesize] $(date +%Y-%m-%d) — new skills"
           git push
+
+  # ==========================================
+  # STAGE 3: VALIDATE (Тестирование)
+  # ==========================================
+  validate:
+    needs: synthesize
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      
+      - name: 🧪 Run full test suite
+        run: |
+          echo "🧪 Testing all generated skills..."
+          python3 pipelines/validate/skill-tester.py
+          echo "✅ Testing complete"
+      
+      - name: 📊 Stage 3 Summary
+        run: |
+          echo "=== Test Results ==="
+          echo "Tested: $(ls -1 skills/tested/*.yaml 2>/dev/null | wc -l) skills"
+          echo "Generated (needs work): $(ls -1 skills/generated/*.yaml 2>/dev/null | wc -l) skills"
+          echo "Retired: $(ls -1 skills/retired/*.yaml 2>/dev/null | wc -l) skills"
+          
+          # Показываем fitness scores
+          echo "=== Fitness Scores ==="
+          for f in skills/tested/*.yaml; do
+            [ -f "$f" ] && echo "$f: $(grep -A1 'fitness_score' "$f" 2>/dev/null | tail -1)"
+          done || echo "No tested skills"
+      
+      - name: 💾 Commit test results [auto-validate]
+        run: |
+          git config user.name "Evolution Bot"
+          git config user.email "evolution@info100.local"
+          git add skills/tested/ skills/retired/ skills/generated/ benchmarks/results/
+          git diff --cached --quiet || git commit -m "🧪 [auto-validate] $(date +%Y-%m-%d) — fitness updated"
+          git push
+
+  # ==========================================
+  # STAGE 4: REPORT (Отчёт в Issues)
+  # ==========================================
+  report:
+    needs: validate
+    runs-on: ubuntu-latest
+    if: ${{ github.event.inputs.create_report != 'false' }}
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install PyGithub
+      
+      - name: 📝 Generate and post report
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "📝 Creating evolution report..."
+          python3 pipelines/report/issue-reporter.py
+          echo "✅ Report posted"
+      
+      - name: 💾 Commit report metadata
+        run: |
+          git config user.name "Evolution Bot"
+          git config user.email "evolution@info100.local"
+          git add meta/last-report.json
+          git diff --cached --quiet || git commit -m "📝 [auto-report] $(date +%Y-%m-%d)"
+          git push || echo "Nothing to commit"
